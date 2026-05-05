@@ -3,34 +3,34 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Pictureprocessingunitppu
 
-Picture Processing Unit (PPU) 
-PPU Reset
+Picture Processing Unit (PPU)
+[PPU Reset](#ppureset)
 
-PPU Control and Status Registers
+[PPU Control and Status Registers](#ppucontrolandstatusregisters)
 
-PPU SPR-RAM Access Registers
+[PPU SPR-RAM Access Registers](#ppusprramaccessregisters)
 
-PPU VRAM Access Registers
+[PPU VRAM Access Registers](#ppuvramaccessregisters)
 
-PPU Scrolling
+[PPU Scrolling](#ppuscrolling)
 
-PPU Tile Memory
+[PPU Tile Memory](#pputilememory)
 
-PPU Background
+[PPU Background](#ppubackground)
 
-PPU Sprites
+[PPU Sprites](#ppusprites)
 
-PPU Palettes
+[PPU Palettes](#ppupalettes)
 
-PPU Dimensions & Timings
+[PPU Dimensions & Timings](#ppudimensionstimings)
 
 Based on "Nintendo Entertainment System Documentation" Version 2.00 by Jeremy
 Chadwick aka Y0SHi aka JDC. Which was itself based on "Nintendo Entertainment
 System Architecture" by Marat Fayzullin.
 
-3D Glasses
+[3D Glasses](#3dglasses)
 
-PPU Control and Status Registers
+## PPU Control and Status Registers
 
 **2000h - PPU Control Register 1 (W)**
 
@@ -87,16 +87,16 @@ enabled. Lost Sprites flag may become set only if video is enabled (ie. BG or
 OBJ must be on). For info about the "Not used" status bits, and some other PPU
 bits see:
 
-Unpredictable Things
+[Unpredictable Things](./modems.md#unpredictablethings)
 
 **VS System**
 
 Some VS System PPUs have Port 2000h/2001h swapped, and do have a Chip ID in
 LSBs of 2002h. For details, see
 
-VS System
+[VS System](./vssystem.md)
 
-PPU VRAM Access Registers
+## PPU VRAM Access Registers
 
 Registers used to Read and Write VRAM data, and for Background Scrolling.
 
@@ -166,9 +166,9 @@ read palette memory (instead, they appear to mirror 3Fxxh to 2Fxxh).
 The APU (if DMC sound is used) can conflict with joypad reads! For details,
 see:
 
-APU DMC-DMA Glitch
+[APU DMC-DMA Glitch](./audioprocessingunitapu.md#apudmcdmaglitch)
 
-PPU Tile Memory
+## PPU Tile Memory
 
 PPU 0000h-0FFFh - Pattern Table 0 (4K) (256 Tiles)
 
@@ -194,24 +194,24 @@ area.
 There are some special mappers that do automatically change the CHR banks
 during rendering (allowing to access more than 8K in one frame):
 
-Mapper 5: MMC5 - BANKING, IRQ, SOUND, VIDEO, MULTIPLY, etc.
+[Mapper 5: MMC5 - BANKING, IRQ, SOUND, VIDEO, MULTIPLY, etc.](./cartridgesandmappers.md#mapper5mmc5bankingirqsoundvideomultiplyetc)
 
-Mapper 9: MMC2 - PRG/24K/8K, VROM/4K, NT, LATCH
+[Mapper 9: MMC2 - PRG/24K/8K, VROM/4K, NT, LATCH](./cartridgesandmappers.md#mapper9mmc2prg24k8kvrom4kntlatch)
 
-Mapper 10: MMC4 - PRG/16K, VROM/4K, NT, LATCH
+[Mapper 10: MMC4 - PRG/16K, VROM/4K, NT, LATCH](./cartridgesandmappers.md#mapper10mmc4prg16kvrom4kntlatch)
 
-Mapper 96: 74161/32 - PRG/32K, CHR/16K/4K, LATCH
+[Mapper 96: 74161/32 - PRG/32K, CHR/16K/4K, LATCH](./cartridgesandmappers.md#mapper967416132prg32kchr16k4klatch)
 
 Cartridges with CHR-RAM (instead CHR-ROM) usually have 8K RAM, but there also a
 few with 16K, 32K or 64K RAM:
 
-Mapper 13: CPROM - 16K VRAM
+[Mapper 13: CPROM - 16K VRAM](./cartridgesandmappers.md#mapper13cprom16kvram)
 
-Mapper 96: 74161/32 - PRG/32K, CHR/16K/4K, LATCH
+[Mapper 96: 74161/32 - PRG/32K, CHR/16K/4K, LATCH](./cartridgesandmappers.md#mapper967416132prg32kchr16k4klatch)
 
-Mapper 168: RacerMate PRG/16K, VRAM/4K, IRQ
+[Mapper 168: RacerMate PRG/16K, VRAM/4K, IRQ](./cartridgesandmappers.md#mapper168racermateprg16kvram4kirq)
 
-PPU Sprites
+## PPU Sprites
 
 SPR-RAM 00-FF - Sprite Attributes (256 bytes, for 64 sprites / 4 bytes each)
 
@@ -298,7 +298,7 @@ the picture into a scrolled and non-scrolled section.
 
 Color 1 or color 2 are (NOT) non-nontransparent (?)
 
-PPU Dimensions & Timings
+## PPU Dimensions & Timings
 
 Below are timings for Nintendo's NTSC and PAL consoles, and for the Dendy (a
 russian Famicom clone with PAL output and Famicom-like NTSC-style timings).
@@ -410,7 +410,7 @@ resynchronize it for the next frame).
 
 **More detailed Timing Info**
 
-PPU 2C02 Timings
+[PPU 2C02 Timings](#ppu2c02timings)
 
 **PAL Vblank Start Timing**
 
@@ -446,7 +446,7 @@ blanking part of the previous line).
 VSYNC is toggled at HSYNC, while active, it changes the "-_C-" part to "-___",
 and also changes the next lines "picture" part from "---" to "___".
 
-3D Glasses
+## 3D Glasses
 
 **Famicom 3D System (Japan) (LCD shutter glasses)**
 

@@ -3,36 +3,36 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Cpu65xxmicroprocessor
 
-CPU 65XX Microprocessor 
+CPU 65XX Microprocessor
 **Overview**
 
-CPU Registers and Flags
+[CPU Registers and Flags](#cpuregistersandflags)
 
-CPU Memory Addressing
+[CPU Memory Addressing](#cpumemoryaddressing)
 
 **Instruction Set**
 
-CPU Memory and Register Transfers
+[CPU Memory and Register Transfers](#cpumemoryandregistertransfers)
 
-CPU Arithmetic/Logical Operations
+[CPU Arithmetic/Logical Operations](#cpuarithmeticlogicaloperations)
 
-CPU Rotate and Shift Instructions
+[CPU Rotate and Shift Instructions](#cpurotateandshiftinstructions)
 
-CPU Jump and Control Instructions
+[CPU Jump and Control Instructions](#cpujumpandcontrolinstructions)
 
-CPU Illegal Opcodes
+[CPU Illegal Opcodes](#cpuillegalopcodes)
 
 **Other Info**
 
-CPU Assembler Directives/Syntax
+[CPU Assembler Directives/Syntax](#cpuassemblerdirectivessyntax)
 
-CPU Glitches
+[CPU Glitches](#cpuglitches)
 
-CPU The 65XX Family
+[CPU The 65XX Family](#cputhe65xxfamily)
 
-CPU Local Usage
+[CPU Local Usage](#cpulocalusage)
 
-CPU Memory Addressing
+## CPU Memory Addressing
 
 **Opcode Addressing Modes**
 
@@ -87,7 +87,7 @@ Beside for different opcode size/time, [XXh+r] will always access page 0 memory
 (even when XXh+r>FFh), while [00XXh+r] may direct to memory in page 0 or 1,
 to avoid unpredictable results be sure not to use (00)XXh+r>FFh if possible.
 
-CPU Arithmetic/Logical Operations
+## CPU Arithmetic/Logical Operations
 
 **Add memory to accumulator with carry**
 
@@ -223,7 +223,7 @@ CA        nz----  2   DEX         DEC X               ;X=X-1
 88        nz----  2   DEY         DEC Y               ;Y=Y-1
 ```
 
-CPU Jump and Control Instructions
+## CPU Jump and Control Instructions
 
 **Normal Jumps & Subroutine Calls/Returns**
 
@@ -319,7 +319,7 @@ incremented twice (PC=PC+2), without any extra boundary cycle. The signed
 parameter is then added to the PC (PC+disp), the extra clock cycle occurs if
 the addition crosses a page boundary (next or previous 100h-page).
 
-CPU Assembler Directives/Syntax
+## CPU Assembler Directives/Syntax
 
 Below are some common 65XX assembler directives, and the corresponding
 expressions in 80XX-style language.
@@ -363,7 +363,7 @@ It does NOT relocate absolute addresses in the program, if the program wishes
 to run at a specific memory location, then it must de-relocate itself from the
 LOAD address to the desired address.
 
-CPU The 65XX Family
+## CPU The 65XX Family
 
 Different versions of the 6502:
 

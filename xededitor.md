@@ -3,16 +3,16 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Xededitor
 
-XED Editor 
-XED About
+XED Editor
+[XED About](#xedabout)
 
-XED Hotkeys
+[XED Hotkeys](#xedhotkeys)
 
-XED Assembler/Debugger Interface
+[XED Assembler/Debugger Interface](#xedassemblerdebuggerinterface)
 
-XED Commandline based standalone version
+[XED Commandline based standalone version](#xedcommandlinebasedstandaloneversion)
 
-XED Hotkeys
+## XED Hotkeys
 
 XED recognizes both CP/M Wordstar hotkeys (also used by Borland PC compilers),
 and Norton editor hotkeys (NU.EXE). The "Ctrl+X,Y" style hotkeys are wordstar
@@ -190,7 +190,7 @@ More printer options can be found in setup. Printing was working well (at least
 with my own printer) in older XED versions, but it is probably badly bugged (at
 least untested) for years now.
 
-XED Commandline based standalone version
+## XED Commandline based standalone version
 
 **Standalone 16bit DOS version**
 

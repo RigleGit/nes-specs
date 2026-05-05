@@ -3,7 +3,7 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Iomap
 
-I/O Map 
+I/O Map
 **I/O Map**
 
 ```

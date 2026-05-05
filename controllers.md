@@ -3,80 +3,80 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Controllers
 
-Controllers 
+Controllers
 **Controller Interface**
 
-Controllers - I/O Ports
+[Controllers - I/O Ports](#controllersioports)
 
-Controllers - Pin-Outs
+[Controllers - Pin-Outs](#controllerspinouts)
 
-Controllers - Summary of Controller Types
+[Controllers - Summary of Controller Types](#controllerssummaryofcontrollertypes)
 
-Controllers - Summary of Controller Signals
+[Controllers - Summary of Controller Signals](#controllerssummaryofcontrollersignals)
 
-Controllers - Detection
+[Controllers - Detection](#controllersdetection)
 
 **Controllers**
 
-Controllers - Joypads
+[Controllers - Joypads](#controllersjoypads)
 
-Controllers - Four-Player Adaptors
+[Controllers - Four-Player Adaptors](#controllersfourplayeradaptors)
 
-Controllers - Lightguns (Zapper)
+[Controllers - Lightguns (Zapper)](#controllerslightgunszapper)
 
-Controllers - Paddles
+[Controllers - Paddles](#controllerspaddles)
 
-Controllers - Push Buttons
+[Controllers - Push Buttons](#controllerspushbuttons)
 
-Controllers - Typewriter Keyboards
+[Controllers - Typewriter Keyboards](#controllerstypewriterkeyboards)
 
-Controllers - Piano Keyboards
+[Controllers - Piano Keyboards](#controllerspianokeyboards)
 
-Controllers - Keypads
+[Controllers - Keypads](#controllerskeypads)
 
-Controllers - Mats
+[Controllers - Mats](#controllersmats)
 
-Controllers - Inflatable Controllers
+[Controllers - Inflatable Controllers](#controllersinflatablecontrollers)
 
-Controllers - RacerMate Bicycle Training System
+[Controllers - RacerMate Bicycle Training System](#controllersracermatebicycletrainingsystem)
 
-Controllers - Tablets
+[Controllers - Tablets](#controllerstablets)
 
-Controllers - Trackball and Mouse
+[Controllers - Trackball and Mouse](#controllerstrackballandmouse)
 
-Controllers - Power Glove
+[Controllers - Power Glove](#controllerspowerglove)
 
-Controllers - UForce
+[Controllers - UForce](#controllersuforce)
 
-Controllers - Barcode Readers
+[Controllers - Barcode Readers](#controllersbarcodereaders)
 
-Controllers - Pachinko
+[Controllers - Pachinko](#controllerspachinko)
 
-Controllers - Microphones
+[Controllers - Microphones](#controllersmicrophones)
 
-Controllers - Reset Button
+[Controllers - Reset Button](#controllersresetbutton)
 
-Controllers - Arcade Machines
+[Controllers - Arcade Machines](#controllersarcademachines)
 
 **Other Devices that connect to Controller I/O Ports**
 
-3D Glasses
+[3D Glasses](./pictureprocessingunitppu.md#3dglasses)
 
-Storage Data Recorder
+[Storage Data Recorder](#storagedatarecorder)
 
-Storage Turbo File
+[Storage Turbo File](#storageturbofile)
 
-Storage Battle Box
+[Storage Battle Box](#storagebattlebox)
 
-Hori Game Repeater
+[Hori Game Repeater](#horigamerepeater)
 
-Headphones
+[Headphones](#headphones)
 
 **Another special device (not directly connected to Controller Ports)**
 
-R.O.B. (Robotic Operating Buddy)
+[R.O.B. (Robotic Operating Buddy)](#robroboticoperatingbuddy)
 
-Controllers - Pin-Outs
+## Controllers - Pin-Outs
 
 **Controller ports - NES (and newer Famicom models) - male, front side**
 
@@ -126,7 +126,7 @@ Pin 8 may be disturbed by joypad 2 signals.
 Note: Joypads/PowerPads/etc are normally using standard 4021 parallel-in
 serial-out shift registers.
 
-Controllers - Summary of Controller Signals
+## Controllers - Summary of Controller Signals
 
 ==================== Port 4016h.Write ====================
 
@@ -366,7 +366,7 @@ NES Unused (not connected to Controller Port)
 
 And, video out: Used by Lightguns and R.O.B. Robot.
 
-Controllers - Joypads
+## Controllers - Joypads
 
 **Joypads (or Joysticks)**
 
@@ -478,7 +478,7 @@ _________                    _________
 |_________|                  |_________|
 ```
 
-Controllers - Lightguns (Zapper)
+## Controllers - Lightguns (Zapper)
 
 **Zapper (Light Gun) Ports / Connection**
 
@@ -651,7 +651,7 @@ mainboard: A somewhat bidirectional Supply GND pin on the Zapper connector
 (allows to do a zapper connect check), an Disconnect-Alert signal (on a special
 "CATV" connector), and a DIP-switch for disabling the Zapper. For details, see:
 
-FamicomBox
+[FamicomBox](./famicombox.md)
 
 **Zapper Schematic / Handheld Pistol NES004**
 
@@ -659,7 +659,8 @@ FamicomBox
 .----------.
 |         1|--------------GND                           VCC -----NES.Pin5
 | Sharp   2|---|
-Controllers - Push Buttons
+
+## Controllers - Push Buttons
 
 **Party Tap (Six Players, one Button per player) (Yonezawa/Partyroom 21)**
 
@@ -747,7 +748,7 @@ bits.
 Note: Konami's "Hyper Shot" Buttons are not to be confused with Bandai's "Hyper
 Shot" Lightgun.
 
-Controllers - Piano Keyboards
+## Controllers - Piano Keyboards
 
 **Doremikko (Three octaves; aka two & two-half octaves) (Konami)**
 
@@ -780,7 +781,7 @@ Controllers - Piano - Miracle Piano Instruments
 
 Controllers - Piano - Miracle Pinouts and Component List
 
-Controllers - Piano - Miracle Piano MIDI Commands
+## Controllers - Piano - Miracle Piano MIDI Commands
 
 The Miracle is always using MIDI messages (no matter if the messages are
 transferred through MIDI or RS232 or NES/SNES/Genesis controller cables). Below
@@ -836,7 +837,7 @@ channels (#=0..0Fh), unknown if the hardware does support/ignore those extra
 channels (from the instrument table: it sounds as if one could use 16
 single-voice channels or 8 dual-voice channels).
 
-Controllers - Piano - Miracle Pinouts and Component List
+## Controllers - Piano - Miracle Pinouts and Component List
 
 **25pin SUBD connector (J6)**
 
@@ -902,7 +903,7 @@ JP3  Snd   4pin Internal stereo speakers connector
 Note: The official original schematics are released & can be found in
 internet.
 
-Controllers - Mats
+## Controllers - Mats
 
 **Power Pad (Dance Mat) (Bandai/Nintendo)**
 
@@ -1007,7 +1008,8 @@ _________.-------------._________
 |         |/    Mat     |         |
 |---------'============='---------|
 |  .---.   .---.   .---.   .---.  |
-Controllers - RacerMate Bicycle Training System
+
+## Controllers - RacerMate Bicycle Training System
 
 CompuTrainer by RacerMate. Used only by RacerMate Challenge II.
 
@@ -1168,7 +1170,8 @@ rear-wheels rotation speed, and the pulse sensor.
 |      CompuTrainer       |
 | .---------------------. |
 | |         LCD         | |
-Controllers - Trackball and Mouse
+
+## Controllers - Trackball and Mouse
 
 **Hori Track**
 
@@ -1328,7 +1331,7 @@ frame) (though unknown if that kind of handling is really required).
 
 Controllers - Typewriter Keyboards
 
-Controllers - Power Glove Transmission Protocol (RX/TX)
+## Controllers - Power Glove Transmission Protocol (RX/TX)
 
 **Transmit (TX) (Configuration)**
 
@@ -1413,7 +1416,7 @@ it should also work in port 2 (4017h.R). When trying to connect two gloves, the
 ultrasonic speakers would disturb each other, so only Flex and Buttons would
 work.
 
-Controllers - Power Glove RX Packets (Position/Sensor Data)
+## Controllers - Power Glove RX Packets (Position/Sensor Data)
 
 **Packet Summary**
 
@@ -1579,7 +1582,7 @@ data. So, after reading the last byte of a packet, the LEDs should reflect
 Bit0-3 and Bit6-7 of the Error Flag byte (until the NMI handler reads the
 following "Not Ready" byte in next frame).
 
-Controllers - Power Glove Drawings
+## Controllers - Power Glove Drawings
 
 ```
 .-------. sensor 1                           sensor 2 .-------..__
@@ -1609,13 +1612,14 @@ lower-right |  '-'  |   #
 .------"------.                        "############################"
 |  junction   |
 .##|     box     :
-Controllers - UForce
 
-Controllers - UForce I/O
+## Controllers - UForce
 
-Controllers - UForce Drawings
+[Controllers - UForce I/O](#controllersuforceio)
 
-Controllers - UForce Games and Game Switches
+[Controllers - UForce Drawings](#controllersuforcedrawings)
+
+[Controllers - UForce Games and Game Switches](#controllersuforcegamesandgameswitches)
 
 **How the UForce Works (directly from the manual)**
 
@@ -1628,7 +1632,7 @@ Note: The so-called "Power Field" consists of 9 infra-red transmitters, each
 one bundled with an infra-red receiver, meant to sense reflections from the
 player's hands.
 
-Controllers - UForce Drawings
+## Controllers - UForce Drawings
 
 **UForce Main Unit (with sensor numbers as ordered in the 8-byte data packet)**
 
@@ -1646,7 +1650,8 @@ _______________________ _______ _______________________
 |  |                                                 |  |
 sensor |  |'''.                                         .'''|  | sensor
 #6---> |  |    :---------------------------------------:    |  |  |  |    :---------------------------------------:    |  |  |  |    :---------------------------------------:    |  |  |  |    :--------------- | ( ) | ---------------:    |  |    \                For use with...              /    |_|      _______________________________      |_|     |   |                  |   |   \              |   |     |  /  |                 |   |                 |  \  |
-Controllers - Barcode Readers
+
+## Controllers - Barcode Readers
 
 **Datach - Joint ROM System (Bandai) (1992)**
 
@@ -1727,7 +1732,7 @@ Baud, 8N1. The NES software receives that bitstream via Port 4017h.Bit2.
 
 Controllers - Barcode Formats
 
-Controllers - Barcode Battler Transmission I/O
+## Controllers - Barcode Battler Transmission I/O
 
 The Barcode Battler outputs barcodes as 20-byte ASCII string, at 1200 Baud,
 8N1. The NES software receives that bitstream via Port 4017h.Bit2. The SNES
@@ -1803,7 +1808,8 @@ The last 7 bytes must contain either one of following ID strings:
 
 ```
 "EPOCH",0Dh,0Ah    ;
-Controllers - Barcode Formats
+
+## Controllers - Barcode Formats
 
 **Common Barcode Formats**
 
@@ -1920,7 +1926,7 @@ Scanning direction can be determined by checking "Odd/Even" parity of the first
 Error checking can be done by verifying the checksum digit and by rejecting any
 invalid symbols.
 
-Controllers - Microphones
+## Controllers - Microphones
 
 **Standard Famicom Microphone**
 
@@ -1958,7 +1964,7 @@ unknown when/if/which games do actually use that function).
 Cartridge with attached "stage" microphone, two 2 push buttons (A and B), and
 ROM expansion slot.
 
-Mapper 188: UNROM-reversed
+[Mapper 188: UNROM-reversed](./cartridgesandmappers.md#mapper188unromreversed)
 
 **NES LaserScope / Famicom Gun Sight (Konami)**
 
@@ -1966,29 +1972,29 @@ This is basically a regular "Zapper" lightgun in form of a headset. The thing
 contains a microphone that replaces the Zapper's trigger button; thus allowing
 "voice activated" shooting.
 
-Controllers - Arcade Machines
+## Controllers - Arcade Machines
 
 **VS Unisystem**
 
 Arcade Machine with additional coin-detection and DIP-switch inputs. Joysticks
 and Lightguns are accessed slightly different as on NES.
 
-VS System
+[VS System](./vssystem.md)
 
 **Play Choice 10**
 
 Arcade Machine with additional coin-detection, DIP-switch, and game-select
 inputs. The inputs are controlled by a separate Z80 CPU. More info:
 
-Nintendo Playchoice 10
+[Nintendo Playchoice 10](./nintendoplaychoice10.md)
 
 **FamicomBox**
 
 For hotel rooms.
 
-FamicomBox
+[FamicomBox](./famicombox.md)
 
-Storage Turbo File
+## Storage Turbo File
 
 The Turbo File is an external battery-backed RAM-Disk made by ASCII. The device
 connects to 15pin Famecom expansion port, accordingly, it's been sold only in
@@ -2202,7 +2208,7 @@ may be a bit different; and of course, A13 and A14 are somehow wired
 to the 4-position switch for 8K bank selection.
 ```
 
-Storage Battle Box I/O Access
+## Storage Battle Box I/O Access
 
 **Battle Box**
 
@@ -2285,7 +2291,7 @@ Erase.
 After power-on, wait 1ms before accessing the chip. Then send Erase/Write
 Enable or Disable as first command.
 
-Hori Game Repeater
+## Hori Game Repeater
 
 The Game Repeater (GR-7) from Hori is a device that can record and playback
 controller data. The data is stored in 16Kbytes of SRAM (assuming that many
@@ -2329,7 +2335,7 @@ happen to have support for doing that via another controller pin?).
 Plus one XTAL, plus resistors/diodes/capacitors. There's no battery on the SRAM
 chips.
 
-R.O.B. (Robotic Operating Buddy)
+## R.O.B. (Robotic Operating Buddy)
 
 R.O.B. (Robotic Operating Buddy) is a small wireless plastic robot, about 24 cm
 in height. Command transmission from console to robot is done via flashing TV
@@ -2379,7 +2385,7 @@ Stack-Up Accessories:
 
 **Drawings**
 
-R.O.B. Technical Drawings
+[R.O.B. Technical Drawings](#robtechnicaldrawings)
 
 **Robot Motors**
 

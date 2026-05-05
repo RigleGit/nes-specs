@@ -3,90 +3,90 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Cartridgesandmappers
 
-Cartridges and Mappers 
+Cartridges and Mappers
 **General Cartridge Info**
 
-Cartridge Overview
+[Cartridge Overview](#cartridgeoverview)
 
-Cartridge ROM-Image File Formats
+[Cartridge ROM-Image File Formats](#cartridgeromimagefileformats)
 
-Cartridge IRQ Counters
+[Cartridge IRQ Counters](#cartridgeirqcounters)
 
-Cartridge Bus Conflicts
+[Cartridge Bus Conflicts](#cartridgebusconflicts)
 
-Cartridge Cicurity Chip (CIC) (Lockout Chip)
+[Cartridge Cicurity Chip (CIC) (Lockout Chip)](#cartridgecicuritychipciclockoutchip)
 
-Cartridge Cheat Devices
+[Cartridge Cheat Devices](#cartridgecheatdevices)
 
-Cartridge Pin-Outs
+[Cartridge Pin-Outs](#cartridgepinouts)
 
-Cartridge Shell Dimensions
+[Cartridge Shell Dimensions](#cartridgeshelldimensions)
 
 **NES Mappers (Numbers as used in .NES fileformat)**
 
-Mapper 0: NROM - No Mapper (or unknown mapper)
+[Mapper 0: NROM - No Mapper (or unknown mapper)](#mapper0nromnomapperorunknownmapper)
 
-Mapper 1: MMC1 - PRG/32K/16K, VROM/8K/4K, NT
+[Mapper 1: MMC1 - PRG/32K/16K, VROM/8K/4K, NT](#mapper1mmc1prg32k16kvrom8k4knt)
 
-Mapper 2: UNROM - PRG/16K
+[Mapper 2: UNROM - PRG/16K](#mapper2unromprg16k)
 
-Mapper 3: CNROM - VROM/8K
+[Mapper 3: CNROM - VROM/8K](#mapper3cnromvrom8k)
 
-Mapper 4: MMC3 - PRG/8K, VROM/2K/1K, NT, SRAM, IRQ
+[Mapper 4: MMC3 - PRG/8K, VROM/2K/1K, NT, SRAM, IRQ](#mapper4mmc3prg8kvrom2k1kntsramirq)
 
-Mapper 5: MMC5 - BANKING, IRQ, SOUND, VIDEO, MULTIPLY, etc.
+[Mapper 5: MMC5 - BANKING, IRQ, SOUND, VIDEO, MULTIPLY, etc.](#mapper5mmc5bankingirqsoundvideomultiplyetc)
 
-Mapper 6: FFE F4xxx - PRG/16K, VROM/8K, NT, IRQ
+[Mapper 6: FFE F4xxx - PRG/16K, VROM/8K, NT, IRQ](#mapper6ffef4xxxprg16kvrom8kntirq)
 
-Mapper 7: AOROM - PRG/32K, Name Table Select
+[Mapper 7: AOROM - PRG/32K, Name Table Select](#mapper7aoromprg32knametableselect)
 
-Mapper 8: FFE F3xxx - PRG/32K, VROM/8K, NT, IRQ
+[Mapper 8: FFE F3xxx - PRG/32K, VROM/8K, NT, IRQ](#mapper8ffef3xxxprg32kvrom8kntirq)
 
-Mapper 9: MMC2 - PRG/24K/8K, VROM/4K, NT, LATCH
+[Mapper 9: MMC2 - PRG/24K/8K, VROM/4K, NT, LATCH](#mapper9mmc2prg24k8kvrom4kntlatch)
 
-Mapper 10: MMC4 - PRG/16K, VROM/4K, NT, LATCH
+[Mapper 10: MMC4 - PRG/16K, VROM/4K, NT, LATCH](#mapper10mmc4prg16kvrom4kntlatch)
 
-Mapper 11: Color Dreams - PRG/32K, VROM/8K
+[Mapper 11: Color Dreams - PRG/32K, VROM/8K](#mapper11colordreamsprg32kvrom8k)
 
-Mapper 12: FFE F6xxx - Not specified, NT, IRQ
+[Mapper 12: FFE F6xxx - Not specified, NT, IRQ](#mapper12ffef6xxxnotspecifiedntirq)
 
-Mapper 13: CPROM - 16K VRAM
+[Mapper 13: CPROM - 16K VRAM](#mapper13cprom16kvram)
 
 Mapper 14: Reportedly SL1632
 
-Mapper 15: X-in-1 - PRG/32K/16K, NT
+[Mapper 15: X-in-1 - PRG/32K/16K, NT](#mapper15xin1prg32k16knt)
 
-Mapper 16: Bandai - PRG/16K, VROM/1K, IRQ, EPROM
+[Mapper 16: Bandai - PRG/16K, VROM/1K, IRQ, EPROM](#mapper16bandaiprg16kvrom1kirqeprom)
 
 (above with 24C02)
 
-Mapper 17: FFE F8xxx - PRG/8K, VROM/1K, NT, IRQ
+[Mapper 17: FFE F8xxx - PRG/8K, VROM/1K, NT, IRQ](#mapper17ffef8xxxprg8kvrom1kntirq)
 
-Mapper 18: Jaleco SS8806 - PRG/8K, VROM/1K, NT, IRQ, EXT
+[Mapper 18: Jaleco SS8806 - PRG/8K, VROM/1K, NT, IRQ, EXT](#mapper18jalecoss8806prg8kvrom1kntirqext)
 
-Mapper 19: Namcot 106 - PRG/8K, VROM/1K/VRAM, IRQ, SOUND
+[Mapper 19: Namcot 106 - PRG/8K, VROM/1K/VRAM, IRQ, SOUND](#mapper19namcot106prg8kvrom1kvramirqsound)
 
-Mapper 20: Disk System - PRG RAM, BIOS, DISK, IRQ, SOUND
+[Mapper 20: Disk System - PRG RAM, BIOS, DISK, IRQ, SOUND](#mapper20disksystemprgrambiosdiskirqsound)
 
-Mapper 21: Konami VRC4A/VRC4C - PRG/8K, VROM/1K, NT, IRQ
+[Mapper 21: Konami VRC4A/VRC4C - PRG/8K, VROM/1K, NT, IRQ](#mapper21konamivrc4avrc4cprg8kvrom1kntirq)
 
-Mapper 22: Konami VRC2A - PRG/8K, VROM/1K, NT
+[Mapper 22: Konami VRC2A - PRG/8K, VROM/1K, NT](#mapper22konamivrc2aprg8kvrom1knt)
 
-Mapper 23: Konami VRC2B/VRC4E - PRG/8K, VROM/1K, NT, (IRQ)
+[Mapper 23: Konami VRC2B/VRC4E - PRG/8K, VROM/1K, NT, (IRQ)](#mapper23konamivrc2bvrc4eprg8kvrom1kntirq)
 
-Mapper 24: Konami VRC6A - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND
+[Mapper 24: Konami VRC6A - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND](#mapper24konamivrc6aprg16k8kvrom1kntirqsound)
 
-Mapper 25: Konami VRC4B/VRC4D - PRG/8K, VROM/1K, NT, IRQ
+[Mapper 25: Konami VRC4B/VRC4D - PRG/8K, VROM/1K, NT, IRQ](#mapper25konamivrc4bvrc4dprg8kvrom1kntirq)
 
-Mapper 26: Konami VRC6B - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND
+[Mapper 26: Konami VRC6B - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND](#mapper26konamivrc6bprg16k8kvrom1kntirqsound)
 
-Mapper 28: Action 53 homebrew X-in-1
+[Mapper 28: Action 53 homebrew X-in-1](#mapper28action53homebrewxin1)
 
-Mapper 32: Irem G-101 - PRG/8K, VROM/1K, NT
+[Mapper 32: Irem G-101 - PRG/8K, VROM/1K, NT](#mapper32iremg101prg8kvrom1knt)
 
-Mapper 33: Taito TC0190/TC0350 - PRG/8K, VROM/1K/2K, NT, IRQ
+[Mapper 33: Taito TC0190/TC0350 - PRG/8K, VROM/1K/2K, NT, IRQ](#mapper33taitotc0190tc0350prg8kvrom1k2kntirq)
 
-Mapper 34: Nina-1 - PRG/32K, VROM/4K
+[Mapper 34: Nina-1 - PRG/32K, VROM/4K](#mapper34nina1prg32kvrom4k)
 
 (above and/or BNROM ?)
 
@@ -94,33 +94,33 @@ Mapper 37: Reportedly ZZ
 
 Mapper 39: Reportedly BMC Study & Game 32-in-1
 
-Mapper 40: FDS-Port - Lost Levels
+[Mapper 40: FDS-Port - Lost Levels](#mapper40fdsportlostlevels)
 
-Mapper 41: Caltron 6-in-1
+[Mapper 41: Caltron 6-in-1](#mapper41caltron6in1)
 
-Mapper 42: FDS-Port - Mario Baby
+[Mapper 42: FDS-Port - Mario Baby](#mapper42fdsportmariobaby)
 
-Mapper 43: X-in-1
+[Mapper 43: X-in-1](#mapper43xin1)
 
-Mapper 44: 7-in-1 MMC3 Port A001h
+[Mapper 44: 7-in-1 MMC3 Port A001h](#mapper447in1mmc3porta001h)
 
-Mapper 45: X-in-1 MMC3 Port 6000hx4
+[Mapper 45: X-in-1 MMC3 Port 6000hx4](#mapper45xin1mmc3port6000hx4)
 
-Mapper 46: 15-in-1 Color Dreams
+[Mapper 46: 15-in-1 Color Dreams](#mapper4615in1colordreams)
 
 (above called "Rumble Station"?)
 
-Mapper 47: 2-in-1 MMC3 Port 6000h
+[Mapper 47: 2-in-1 MMC3 Port 6000h](#mapper472in1mmc3port6000h)
 
-Mapper 48: Taito TC190V
+[Mapper 48: Taito TC190V](#mapper48taitotc190v)
 
-Mapper 49: 4-in-1 MMC3 Port 6xxxh
+[Mapper 49: 4-in-1 MMC3 Port 6xxxh](#mapper494in1mmc3port6xxxh)
 
-Mapper 50: FDS-Port - Alt. Levels
+[Mapper 50: FDS-Port - Alt. Levels](#mapper50fdsportaltlevels)
 
-Mapper 51: 11-in-1
+[Mapper 51: 11-in-1](#mapper5111in1)
 
-Mapper 52: 7-in-1 MMC3 Port 6800h with SRAM
+[Mapper 52: 7-in-1 MMC3 Port 6800h with SRAM](#mapper527in1mmc3port6800hwithsram)
 
 Mapper 53: Reportedly Supervision 16-in-1
 
@@ -128,123 +128,123 @@ Mapper 54: Reportedly BMC Noveldiamond 9999999-in-1
 
 Mapper 55: Reportedly BTL Mario1-Malee2
 
-Mapper 56: Pirate SMB3
+[Mapper 56: Pirate SMB3](#mapper56piratesmb3)
 
-Mapper 57: 6-in-1
+[Mapper 57: 6-in-1](#mapper576in1)
 
-Mapper 58: X-in-1
+[Mapper 58: X-in-1](#mapper58xin1)
 
 Mapper 59: Reportedly ..
 
 Mapper 60: Reportedly ..
 
-Mapper 61: 20-in-1
+[Mapper 61: 20-in-1](#mapper6120in1)
 
-Mapper 62: X-in-1
+[Mapper 62: X-in-1](#mapper62xin1)
 
-Mapper 64: Tengen RAMBO-1 - PRG/8K, VROM/2K/1K, NT, IRQ
+[Mapper 64: Tengen RAMBO-1 - PRG/8K, VROM/2K/1K, NT, IRQ](#mapper64tengenrambo1prg8kvrom2k1kntirq)
 
-Mapper 65: Irem H-3001 - PRG/8K, VROM/1K, NT, IRQ
+[Mapper 65: Irem H-3001 - PRG/8K, VROM/1K, NT, IRQ](#mapper65iremh3001prg8kvrom1kntirq)
 
-Mapper 66: GNROM - PRG/32K, VROM/8K
+[Mapper 66: GNROM - PRG/32K, VROM/8K](#mapper66gnromprg32kvrom8k)
 
-Mapper 67: Sunsoft3 - PRG/16K, VROM/2K, IRQ
+[Mapper 67: Sunsoft3 - PRG/16K, VROM/2K, IRQ](#mapper67sunsoft3prg16kvrom2kirq)
 
-Mapper 68: Sunsoft4 - PRG/16K, VROM/2K, NT-VROM
+[Mapper 68: Sunsoft4 - PRG/16K, VROM/2K, NT-VROM](#mapper68sunsoft4prg16kvrom2kntvrom)
 
 (Nantettatte Baseball Double Cassette System for mapper 68)?
 
-Mapper 69: Sunsoft5 FME-7 - PRG/8K, VROM/1K, NT ctrl, SRAM, IRQ
+[Mapper 69: Sunsoft5 FME-7 - PRG/8K, VROM/1K, NT ctrl, SRAM, IRQ](#mapper69sunsoft5fme7prg8kvrom1kntctrlsramirq)
 
-Mapper 70: Bandai - PRG/16K, VROM/8K, NT
+[Mapper 70: Bandai - PRG/16K, VROM/8K, NT](#mapper70bandaiprg16kvrom8knt)
 
-Mapper 71: Camerica - PRG/16K
+[Mapper 71: Camerica - PRG/16K](#mapper71camericaprg16k)
 
-Mapper 72: Jaleco Early Mapper 0 - PRG-LO, VROM/8K
+[Mapper 72: Jaleco Early Mapper 0 - PRG-LO, VROM/8K](#mapper72jalecoearlymapper0prglovrom8k)
 
-Mapper 73: Konami VRC3 - PRG/16K, IRQ
+[Mapper 73: Konami VRC3 - PRG/16K, IRQ](#mapper73konamivrc3prg16kirq)
 
-Mapper 74: Whatever MMC3-style
+[Mapper 74: Whatever MMC3-style](#mapper74whatevermmc3style)
 
-Mapper 75: Jaleco SS8805/Konami VRC1 - PRG/8K, VROM/4K, NT
+[Mapper 75: Jaleco SS8805/Konami VRC1 - PRG/8K, VROM/4K, NT](#mapper75jalecoss8805konamivrc1prg8kvrom4knt)
 
-Mapper 76: Namco 109 - PRG/8K, VROM/2K
+[Mapper 76: Namco 109 - PRG/8K, VROM/2K](#mapper76namco109prg8kvrom2k)
 
-Mapper 77: Irem - PRG/32K, VROM/2K, VRAM 6K+2K
+[Mapper 77: Irem - PRG/32K, VROM/2K, VRAM 6K+2K](#mapper77iremprg32kvrom2kvram6k2k)
 
-Mapper 78: Irem 74HC161/32 - PRG/16K, VROM/8K
+[Mapper 78: Irem 74HC161/32 - PRG/16K, VROM/8K](#mapper78irem74hc16132prg16kvrom8k)
 
-Mapper 79: AVE Nina-3 - VROM/8K
+[Mapper 79: AVE Nina-3 - VROM/8K](#mapper79avenina3vrom8k)
 
-Mapper 80: Taito X-005 - PRG/8K, VROM/2K/1K, NT
+[Mapper 80: Taito X-005 - PRG/8K, VROM/2K/1K, NT](#mapper80taitox005prg8kvrom2k1knt)
 
-Mapper 81: AVE Nina-6
+[Mapper 81: AVE Nina-6](#mapper81avenina6)
 
-Mapper 82: Taito X1-17 - PRG/8K, VROM/2K/1K
+[Mapper 82: Taito X1-17 - PRG/8K, VROM/2K/1K](#mapper82taitox117prg8kvrom2k1k)
 
-Mapper 83: Cony
+[Mapper 83: Cony](#mapper83cony)
 
-Mapper 84: Whatever
+[Mapper 84: Whatever](#mapper84whatever)
 
-Mapper 85: Konami VRC7A/B - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND
+[Mapper 85: Konami VRC7A/B - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND](#mapper85konamivrc7abprg16k8kvrom1kntirqsound)
 
-Mapper 86: Jaleco Early Mapper 2 - PRG/32K, VROM/8K
+[Mapper 86: Jaleco Early Mapper 2 - PRG/32K, VROM/8K](#mapper86jalecoearlymapper2prg32kvrom8k)
 
-Mapper 87: Jaleco/Konami 16K VROM - VROM/8K
+[Mapper 87: Jaleco/Konami 16K VROM - VROM/8K](#mapper87jalecokonami16kvromvrom8k)
 
-Mapper 88: Namco 118
+[Mapper 88: Namco 118](#mapper88namco118)
 
-Mapper 89: Sunsoft Early - PRG/16K, VROM/8K
+[Mapper 89: Sunsoft Early - PRG/16K, VROM/8K](#mapper89sunsoftearlyprg16kvrom8k)
 
-Mapper 90: Pirate MMC5-style
+[Mapper 90: Pirate MMC5-style](#mapper90piratemmc5style)
 
-Mapper 91: HK-SF3 - PRG/8K, VROM/2K, IRQ
+[Mapper 91: HK-SF3 - PRG/8K, VROM/2K, IRQ](#mapper91hksf3prg8kvrom2kirq)
 
-Mapper 92: Jaleco Early Mapper 1 - PRG-HI, VROM/8K
+[Mapper 92: Jaleco Early Mapper 1 - PRG-HI, VROM/8K](#mapper92jalecoearlymapper1prghivrom8k)
 
-Mapper 93: 74161/32 - PRG/16K
+[Mapper 93: 74161/32 - PRG/16K](#mapper937416132prg16k)
 
-Mapper 94: 74161/32 - PRG/16K
+[Mapper 94: 74161/32 - PRG/16K](#mapper947416132prg16k)
 
-Mapper 95: Namcot MMC3-Style
+[Mapper 95: Namcot MMC3-Style](#mapper95namcotmmc3style)
 
-Mapper 96: 74161/32 - PRG/32K, CHR/16K/4K, LATCH
+[Mapper 96: 74161/32 - PRG/32K, CHR/16K/4K, LATCH](#mapper967416132prg32kchr16k4klatch)
 
-Mapper 97: Irem - PRG HI
+[Mapper 97: Irem - PRG HI](#mapper97iremprghi)
 
-Mapper 99: VS Unisystem Port 4016h - VROM/8K, (PRG/8K)
+[Mapper 99: VS Unisystem Port 4016h - VROM/8K, (PRG/8K)](#mapper99vsunisystemport4016hvrom8kprg8k)
 
-Mapper 100: Whatever
+[Mapper 100: Whatever](#mapper100whatever)
 
 Mapper 101: Reportedly ...
 
-Mapper 105: X-in-1 MMC1
+[Mapper 105: X-in-1 MMC1](#mapper105xin1mmc1)
 
 Mapper 107: Reportedly Magicseries
 
-Mapper 112: Asder - PRG/8K, VROM/2K/1K
+[Mapper 112: Asder - PRG/8K, VROM/2K/1K](#mapper112asderprg8kvrom2k1k)
 
-Mapper 113: Sachen/Hacker/Nina
+[Mapper 113: Sachen/Hacker/Nina](#mapper113sachenhackernina)
 
-Mapper 114: Super Games
+[Mapper 114: Super Games](#mapper114supergames)
 
-Mapper 115: MMC3 Cart Saint
+[Mapper 115: MMC3 Cart Saint](#mapper115mmc3cartsaint)
 
-Mapper 116: Whatever
+[Mapper 116: Whatever](#mapper116whatever)
 
-Mapper 117: Future
+[Mapper 117: Future](#mapper117future)
 
-Mapper 118: MMC3 TLSROM - PRG/8K, VROM/2K/1K, Banked-NT, SRAM, IRQ
+[Mapper 118: MMC3 TLSROM - PRG/8K, VROM/2K/1K, Banked-NT, SRAM, IRQ](#mapper118mmc3tlsromprg8kvrom2k1kbankedntsramirq)
 
-Mapper 119: MMC3 TQROM - PRG/8K, VROM/VRAM/2K/1K, NT, SRAM, IRQ
+[Mapper 119: MMC3 TQROM - PRG/8K, VROM/VRAM/2K/1K, NT, SRAM, IRQ](#mapper119mmc3tqromprg8kvromvram2k1kntsramirq)
 
-Mapper 122: Whatever
+[Mapper 122: Whatever](#mapper122whatever)
 
 Mapper 123: Reportedly H2288
 
 Mapper 132: Reportedly TXC 22211
 
-Mapper 133: Sachen
+[Mapper 133: Sachen](#mapper133sachen)
 
 Mapper 137: Reportedly S8259D
 
@@ -274,9 +274,9 @@ Mapper 149: Reportedly SA0036
 
 Mapper 150: Reportedly S74LS37AN
 
-Mapper 151: VS Unisystem VRC1 or MMC3 Daughterboards
+[Mapper 151: VS Unisystem VRC1 or MMC3 Daughterboards](#mapper151vsunisystemvrc1ormmc3daughterboards)
 
-Mapper 152: Whatever
+[Mapper 152: Whatever](#mapper152whatever)
 
 (above Bandai 74161/32+MIRR)
 
@@ -292,9 +292,9 @@ Mapper 157: No info (reportedly a variant of Mapper 16) BANDAI+BARCODE (Datach)
 
 Mapper 159: No info (reportedly a variant of Mapper 16) BANDAI+24C01
 
-Mapper 160: Same as Mapper 90
+[Mapper 160: Same as Mapper 90](#mapper160sameasmapper90)
 
-Mapper 161: Same as Mapper 1
+[Mapper 161: Same as Mapper 1](#mapper161sameasmapper1)
 
 Mapper 163: Reportedly NANJING
 
@@ -306,7 +306,7 @@ Mapper 166: Reportedly SUBOR (Russian)
 
 Mapper 167: Reportedly SUBOR (Chinese)
 
-Mapper 168: RacerMate PRG/16K, VRAM/4K, IRQ
+[Mapper 168: RacerMate PRG/16K, VRAM/4K, IRQ](#mapper168racermateprg16kvram4kirq)
 
 Mapper 169: Reportedly N625092
 
@@ -316,29 +316,29 @@ Mapper 171: Reportedly KAISER KS7058
 
 Mapper 172: Reportedly IDEA-TEK CNROM +SECURITY
 
-Mapper 180: Nihon Bussan - PRG HI
+[Mapper 180: Nihon Bussan - PRG HI](#mapper180nihonbussanprghi)
 
 (above UNROM M5)
 
-Mapper 182: Same as Mapper 114
+[Mapper 182: Same as Mapper 114](#mapper182sameasmapper114)
 
 (Mapper 182: Reportedly HOSENKAN ELECTRONICS)
 
 Mapper 183: Reportedly BTL SHUI GUAN PIPE
 
-Mapper 184: Sunsoft - VROM/4K
+[Mapper 184: Sunsoft - VROM/4K](#mapper184sunsoftvrom4k)
 
-Mapper 185: VROM-disable
+[Mapper 185: VROM-disable](#mapper185vromdisable)
 
 Mapper 186: Reportedly SBX
 
 Mapper 187: No Info --> Mapper 187: Reportedly BTL SFZ297/KOF96/S3DB6
 
-Mapper 188: UNROM-reversed
+[Mapper 188: UNROM-reversed](#mapper188unromreversed)
 
 (Mapper 188: Reportedly BANDAI KARAOKE STUDIO)
 
-Mapper 189: MMC3 Variant
+[Mapper 189: MMC3 Variant](#mapper189mmc3variant)
 
 (Mapper 189: Reportedly YOKOSOFT / TXC)
 
@@ -396,29 +396,29 @@ Mapper 216: Reportedly RCM MAGIC JEWELRY 2
 
 Mapper 217: Reportedly BMC SPC009
 
-Mapper 218: Nocash Single-Chip
+[Mapper 218: Nocash Single-Chip](#mapper218nocashsinglechip)
 
-Mapper 222: Dragon Ninja
+[Mapper 222: Dragon Ninja](#mapper222dragonninja)
 
-Mapper 225: X-in-1
+[Mapper 225: X-in-1](#mapper225xin1)
 
-Mapper 226: X-in-1
+[Mapper 226: X-in-1](#mapper226xin1)
 
-Mapper 227: X-in-1
+[Mapper 227: X-in-1](#mapper227xin1)
 
-Mapper 228: X-in-1 Homebrewn
+[Mapper 228: X-in-1 Homebrewn](#mapper228xin1homebrewn)
 
-Mapper 229: 31-in-1
+[Mapper 229: 31-in-1](#mapper22931in1)
 
-Mapper 230: X-in-1 plus Contra
+[Mapper 230: X-in-1 plus Contra](#mapper230xin1pluscontra)
 
-Mapper 231: 20-in-1
+[Mapper 231: 20-in-1](#mapper23120in1)
 
-Mapper 232: 4-in-1 Quattro Camerica
+[Mapper 232: 4-in-1 Quattro Camerica](#mapper2324in1quattrocamerica)
 
-Mapper 233: X-in-1 plus Reset
+[Mapper 233: X-in-1 plus Reset](#mapper233xin1plusreset)
 
-Mapper 234: Maxi-15
+[Mapper 234: Maxi-15](#mapper234maxi15)
 
 (Mapper 234: Reportedly AVE D-1012)
 
@@ -426,19 +426,19 @@ Mapper 235: Reportedly BMC GOLDEN GAME 150/260-IN-1
 
 Mapper 236: Reportedly BMC 800/70-IN-1
 
-Mapper 240: C&E/Supertone - PRG/32K, VROM/8K
+[Mapper 240: C&E/Supertone - PRG/32K, VROM/8K](#mapper240cesupertoneprg32kvrom8k)
 
-Mapper 241: X-in-1 Education
+[Mapper 241: X-in-1 Education](#mapper241xin1education)
 
 (Mapper 241: Reportedly MXMDHTWO / TXC)
 
-Mapper 242: Waixing - PRG/32K, NT
+[Mapper 242: Waixing - PRG/32K, NT](#mapper242waixingprg32knt)
 
-Mapper 243: Sachen Poker - PRG/32K, VROM/8K
+[Mapper 243: Sachen Poker - PRG/32K, VROM/8K](#mapper243sachenpokerprg32kvrom8k)
 
 (Mapper 243: Reportedly SACHEN 74LS374N)
 
-Mapper 244: C&E - PRG/32K, VROM/8K
+[Mapper 244: C&E - PRG/32K, VROM/8K](#mapper244ceprg32kvrom8k)
 
 (Mapper 244: Reportedly C&E DECATHLON)
 
@@ -446,7 +446,7 @@ Mapper 245: No Info (seems to be some sort of MMC3 variant)
 
 (Mapper 245: Reportedly WAIXING MMC3 +EX.PRG)
 
-Mapper 246: C&E - PRG/8K, VROM/2K, SRAM
+[Mapper 246: C&E - PRG/8K, VROM/2K, SRAM](#mapper246ceprg8kvrom2ksram)
 
 (Mapper 246: Reportedly C&E PHONE SERM BERM)
 
@@ -462,7 +462,7 @@ Mapper 252: No Info --> Mapper 252: Reportedly WAIXING SAN GUO ZHI
 
 Mapper 254: No Info --> Mapper 254: Reportedly BTL PIKACHU Y2K
 
-Mapper 255: X-in-1 - (Same as Mapper 225)
+[Mapper 255: X-in-1 - (Same as Mapper 225)](#mapper255xin1sameasmapper225)
 
 XXX NROM-368 variant of NROM (and similar CPROM, CNROM variants)
 
@@ -486,7 +486,8 @@ A lot of mappers are hiding here:
 
 ```
 http://kevtris.org/mappers/mappers.html   ;
-Cartridge ROM-Image File Formats
+
+## Cartridge ROM-Image File Formats
 
 **iNES Format (.NES)**
 
@@ -666,7 +667,7 @@ DINF - Dumper information block (204 Bytes)
 
 Note: All words and dwords in header/chunks stored LSB first.
 
-Cartridge Bus Conflicts
+## Cartridge Bus Conflicts
 
 /PRG Pin - Indicates CPU Memory Access to 8000h-FFFFh (LOW=Read or Write)
 
@@ -691,7 +692,7 @@ though). Another workaround is to interprete the lower address bits instead of
 the data bits (eg. Mapper 225), that's of course still producing a bus-conflict
 (shortcut), but without disturbing the program flow.
 
-Cartridge CIC Pseudo Code
+## Cartridge CIC Pseudo Code
 
 **CicMain**
 
@@ -772,7 +773,7 @@ if (console=1) then P1=a, Wait(timer+time), a=a xor 4  ;toggle reset on/off
 goto endless_loop
 ```
 
-Cartridge CIC Notes
+## Cartridge CIC Notes
 
 **Program Counter (PC)**
 
@@ -1002,7 +1003,7 @@ CIC would start "immediately", but in practice, it starts 1.33us (four 3.072MHz
 cycles) after releasing Reset (that offset seems to be constant, unlike as on
 the 3195A where it randomly changes between 1.0us and 1.25us).
 
-Cartridge CIC Pinouts
+## Cartridge CIC Pinouts
 
 XXX below "Cart.nn" pin-numbers are for SNES carts (not NES carts).
 
@@ -1041,7 +1042,7 @@ START: short HIGH pulse on power-up or when releasing reset button.
 
 /RESET: in console: to PPU, and from there to CPU,APU,Cart,Expansion.
 
-Cartridge Cheat Devices
+## Cartridge Cheat Devices
 
 **Game Genie (19xx)**
 
@@ -1130,7 +1131,7 @@ Pro Action Rocky Bit Translation (xlat[0..31]):
 19,21,23,22,20,17,16,18,29,31,24,26,25,30,27,28
 ```
 
-Cartridge Shell Dimensions
+## Cartridge Shell Dimensions
 
 **NES Cart-Shell with NES-NROM PCB Dimensions**
 
@@ -1201,7 +1202,7 @@ _|_ 3.0mm   |________|____________________________.'    _|_3.75mm   _|_
 
 Above values aren't 100% correct.
 
-Mapper 1: MMC1 - PRG/32K/16K, VROM/8K/4K, NT
+## Mapper 1: MMC1 - PRG/32K/16K, VROM/8K/4K, NT
 
 This mapper is used on numerous U.S. and Japanese games, including Legend of
 Zelda, Metroid, Rad Racer, Mega Man 2, and many others.
@@ -1272,7 +1273,7 @@ Reportedly some MMC1 carts have 16K SRAM, of which only 8K are battery backed,
 no idea how/where the additionally 8K are accessed, and no idea which 8K are
 battery backed and which are not (?).
 
-Mapper 3: CNROM - VROM/8K
+## Mapper 3: CNROM - VROM/8K
 
 This mapper is used on many older U.S. and Japanese games, such as Solomon's
 Key, Gradius, Cybernoid, and Hudson's Adventure Island.
@@ -1308,7 +1309,7 @@ feature:
 
 Mapper 185: VROM-disable
 
-Mapper 5: MMC5 - BANKING, IRQ, SOUND, VIDEO, MULTIPLY, etc.
+## Mapper 5: MMC5 - BANKING, IRQ, SOUND, VIDEO, MULTIPLY, etc.
 
 Used by Gun Sight (Laser Invasion), Uchuu Keibitai SDF, Bandit Kings
 (Suikoden), Castlevania 3, Nobunaga Sengoku (Nobunaga's Ambition 2), Nobunaga
@@ -1331,7 +1332,7 @@ Mapper 5: MMC5 - Video EXRAM
 
 Mapper 5: MMC5 - Sound Control
 
-Mapper 5: MMC5 - CPU Memory Control
+## Mapper 5: MMC5 - CPU Memory Control
 
 **5100h - PRG Bank Size Control (Mode for Port 5114h-5117h)**
 
@@ -1378,7 +1379,7 @@ and 32K (single 32K chip).
 On reset, 8K mode is activated, and all ROM banks are set to the LAST 8K bank
 in the cartridge.
 
-Mapper 5: MMC5 - Video Pattern Table
+## Mapper 5: MMC5 - Video Pattern Table
 
 **5101h - CHR Page Size**
 
@@ -1439,7 +1440,7 @@ In Horizontal Split Mode, left or right BG Tiles use 4K CHR bank in Port 5202h.
 
 In ExGrafix Mode, 4K CHR banks are specified for each single BG Tile in EXRAM.
 
-Mapper 5: MMC5 - Video EXRAM
+## Mapper 5: MMC5 - Video EXRAM
 
 **5C00h-5FFFh - EXRAM**
 
@@ -1478,7 +1479,7 @@ Name Table entries 3C0h-3FFh and EXRAM 5FC0h-5FFFh are not used in this mode.
 
 Also BG-CHR Bank Selection Ports 5128h-512Bh are not used.
 
-Mapper 6,8,12,17: Front Far East (FFE) Configuration, IRQs, Patches
+## Mapper 6,8,12,17: Front Far East (FFE) Configuration, IRQs, Patches
 
 Front Far East (FFE) disk drive "backup unit" connects to the cartridge slot,
 allows to load copies of games from floppy/hdd/cdrom into RAM (max 512K) and
@@ -1554,7 +1555,7 @@ D3     SW Pin (maybe something related with above WE/SW selection)
 D2-D0  PPU Mode Select (1or2?="*MODE" (32K), 5=256K, VRAM EXT, 7=256K)
 ```
 
-Mapper ?: FFE F4xxx - PRG/16K, VROM/8K, NT, IRQ
+## Mapper ?: FFE F4xxx - PRG/16K, VROM/8K, NT, IRQ
 
 10% of games declared as "Mapper 6" are this (and not Mapper 6).
 
@@ -1570,7 +1571,7 @@ Additional FFE registers:
 
 Mapper 6,8,12,17: Front Far East (FFE) Configuration, IRQs, Patches
 
-Mapper 8: FFE F3xxx - PRG/32K, VROM/8K, NT, IRQ
+## Mapper 8: FFE F3xxx - PRG/32K, VROM/8K, NT, IRQ
 
 Several hacked Japanese titles use this mapper, such as the hacked version of
 Doraemon.
@@ -1585,7 +1586,7 @@ Additional FFE registers:
 
 Mapper 6,8,12,17: Front Far East (FFE) Configuration, IRQs, Patches
 
-Mapper 10: MMC4 - PRG/16K, VROM/4K, NT, LATCH
+## Mapper 10: MMC4 - PRG/16K, VROM/4K, NT, LATCH
 
 Used only by Fire Emblem, Fire Emblem Gaiden, and Family War.
 
@@ -1609,7 +1610,7 @@ PPU fetches bitmap data for Tile FDh or FEh. The new latch setting is then used
 for all <further> tiles (tiles FDh/FEh are still fetched from the
 <old> latch setting).
 
-Mapper 12: FFE F6xxx - Not specified, NT, IRQ
+## Mapper 12: FFE F6xxx - Not specified, NT, IRQ
 
 No info. Don't have a ROM-image.
 
@@ -1621,7 +1622,7 @@ Additional FFE registers:
 
 Mapper 6,8,12,17: Front Far East (FFE) Configuration, IRQs, Patches
 
-Mapper 15: X-in-1 - PRG/32K/16K, NT
+## Mapper 15: X-in-1 - PRG/32K/16K, NT
 
 Used by Contra 100-in-1 (fake multicart with less than 100 different games),
 and hacked versions of Crazy Climber, Dragon Ball, and Mobile Suit (single game
@@ -1642,7 +1643,7 @@ Mapping in different modes is:
 
 Initially first 32K ROM selected. The cartridge contains 8K VRAM.
 
-Mapper 17: FFE F8xxx - PRG/8K, VROM/1K, NT, IRQ
+## Mapper 17: FFE F8xxx - PRG/8K, VROM/1K, NT, IRQ
 
 Several hacked Japanese titles use this mapper, such as the hacked versions of
 Parodius and DragonBall Z 3.
@@ -1666,7 +1667,7 @@ Additional FFE registers:
 
 Mapper 6,8,12,17: Front Far East (FFE) Configuration, IRQs, Patches
 
-Mapper 19: Namcot 106 - PRG/8K, VROM/1K/VRAM, IRQ, SOUND
+## Mapper 19: Namcot 106 - PRG/8K, VROM/1K/VRAM, IRQ, SOUND
 
 This mapper is used on several Japanese titles by Namcot, such as Splatterhouse
 and Family Stadium '90.
@@ -1774,19 +1775,19 @@ According to Gorohs frequency table, Tone "C" of Octave "1-8" is: 1:47Eh,
 According to my CPC frequency table, middle "C" of octave "0" should be
 261.626Hz. No idea how to match that into a formula.
 
-Mapper 21: Konami VRC4A/VRC4C - PRG/8K, VROM/1K, NT, IRQ
+## Mapper 21: Konami VRC4A/VRC4C - PRG/8K, VROM/1K, NT, IRQ
 
 Mapper 21-26,73,75,85: Konami VRC Mappers
 
-Mapper 23: Konami VRC2B/VRC4E - PRG/8K, VROM/1K, NT, (IRQ)
+## Mapper 23: Konami VRC2B/VRC4E - PRG/8K, VROM/1K, NT, (IRQ)
 
 Mapper 21-26,73,75,85: Konami VRC Mappers
 
-Mapper 25: Konami VRC4B/VRC4D - PRG/8K, VROM/1K, NT, IRQ
+## Mapper 25: Konami VRC4B/VRC4D - PRG/8K, VROM/1K, NT, IRQ
 
 Mapper 21-26,73,75,85: Konami VRC Mappers
 
-Mapper 21-26,73,75,85: Konami VRC Mappers
+## Mapper 21-26,73,75,85: Konami VRC Mappers
 
 This chapter describes all known VRC variants. The different Port addresses are
 specified as X.Y.Z which may look a bit abstract at the first glance, at second
@@ -1977,7 +1978,7 @@ Mapper 85: Konami VRC7A/B - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND
 
 VRC3 - Salamander writes 00h to Port 8000h and 9000h.
 
-Mapper 32: Irem G-101 - PRG/8K, VROM/1K, NT
+## Mapper 32: Irem G-101 - PRG/8K, VROM/1K, NT
 
 This mapper is used on several Japanese titles by Irem, such as ImageFight 2.
 
@@ -2003,7 +2004,7 @@ BFF6h  Select 1K VROM bank at PPU 1800h-1BFFh
 BFF7h  Select 1K VROM bank at PPU 1C00h-1FFFh
 ```
 
-Mapper 34: Nina-1 - PRG/32K, VROM/4K
+## Mapper 34: Nina-1 - PRG/32K, VROM/4K
 
 Used by Impossible Mission II.
 
@@ -2023,7 +2024,7 @@ AOROM variant. For details, see
 
 Mapper 7: AOROM - PRG/32K, Name Table Select
 
-Mapper 41: Caltron 6-in-1
+## Mapper 41: Caltron 6-in-1
 
 Used by Caltron 6-in-1 cartridge only.
 
@@ -2041,7 +2042,7 @@ D1-D0  Lower two bits of 8K VROM bank at 0000h-1FFFh
 When the NES is switched on, or the reset button is pressed, both registers are
 cleared to 00h, done by a cool little diode / RC circuit on the PHI2 line.
 
-Mapper 43: X-in-1
+## Mapper 43: X-in-1
 
 Used by 150-in-1 (a fake containing 56 games, plus some cheat modes, chip 0 is
 1024K, chip 1 is 512K, chip 2-3 are not installed).
@@ -2059,7 +2060,7 @@ A14    Not used            (Always zero)
 
 Initially 1st 32K selected. The cartridge includes 8K VRAM.
 
-Mapper 45: X-in-1 MMC3 Port 6000hx4
+## Mapper 45: X-in-1 MMC3 Port 6000hx4
 
 Used in Super 3-in-1, Super 4-in-1, Super 8-in-1, Hero 8-in-1, Super 13-in-1,
 and 1000000-in-1 (a fake with 1000000 duplicated/nonsense titles).
@@ -2099,7 +2100,7 @@ The rest of the mapper is same as MMC3 (for the selected block of memory),
 
 Mapper 4: MMC3 - PRG/8K, VROM/2K/1K, NT, SRAM, IRQ
 
-Mapper 47: 2-in-1 MMC3 Port 6000h
+## Mapper 47: 2-in-1 MMC3 Port 6000h
 
 Used by 2-in-1 cart "Super Spike V'Ball + Nintendo World Cup".
 
@@ -2114,7 +2115,7 @@ Mapper 4: MMC3 - PRG/8K, VROM/2K/1K, NT, SRAM, IRQ
 The cartridge doesn't have SRAM, but the MMC3 Port A001h can apparently
 write-protect Port 6000h (just like it could disable SRAM at 6000h-7FFFh).
 
-Mapper 49: 4-in-1 MMC3 Port 6xxxh
+## Mapper 49: 4-in-1 MMC3 Port 6xxxh
 
 Used by Super HIK 4-in-1.
 
@@ -2136,7 +2137,7 @@ The cartridge doesn't have SRAM, but the MMC3 Port A001h apparently can
 write-protect Ports at 6000h-7FFFh (just like it could disable SRAM at
 6000h-7FFFh).
 
-Mapper 51: 11-in-1
+## Mapper 51: 11-in-1
 
 Used by 11-in-1, containing ball games, like "soccer ball", and "golf ball".
 
@@ -2155,7 +2156,7 @@ C000h  Lower 16K Select (Y) (0-1Fh) (128K Mode only, UNROM-style)
 The cartridge does have 8K VRAM, even though there's a ROM-image around in
 which somebody has incorrectly included a copy of above 8K VRAM as "8K VROM".
 
-Mapper 56: Pirate SMB3
+## Mapper 56: Pirate SMB3
 
 Used only by a pirate copy of Super Mario Bros. 3.
 
@@ -2185,7 +2186,7 @@ F407h  Select 1K VROM at PPU 1C00h-1FFFh
 The cartridge often uses silly mirrors like C5A7h, mask 8000h-EFFFh by F000h,
 and F000h-FFFFh by F407h. The IRQ counter is incremented every clock cycle.
 
-Mapper 58: X-in-1
+## Mapper 58: X-in-1
 
 Used by 68-in-1 (a fake containing only 8 games).
 
@@ -2202,7 +2203,7 @@ Note: Study and Game 32-in-1 declared as "Mapper 58" should be Mapper 241,
 
 Mapper 241: X-in-1 Education
 
-Mapper 62: X-in-1
+## Mapper 62: X-in-1
 
 Used by 700-in-1 (a fake containing only somewhat 50-100 games).
 
@@ -2217,7 +2218,7 @@ A14          Always 0 ?
 
 ROM Bank lower bit (A8) should be always SET in 32K Mode. Initially 1st 32K.
 
-Mapper 65: Irem H-3001 - PRG/8K, VROM/1K, NT, IRQ
+## Mapper 65: Irem H-3001 - PRG/8K, VROM/1K, NT, IRQ
 
 Used by Daiku no Gensan 2, Kaiketsu Yanchamaru 3, and Spartan X 2.
 
@@ -2244,7 +2245,7 @@ C000h  Select 8K ROM bank at C000h-DFFFh (initially 1st half of last 16K)
 N/A    Fixed  8K ROM bank at E000h-FFFFh (always 2nd half of last 16K)
 ```
 
-Mapper 67: Sunsoft3 - PRG/16K, VROM/2K, IRQ
+## Mapper 67: Sunsoft3 - PRG/16K, VROM/2K, IRQ
 
 Used by Fantasy Zone 2.
 
@@ -2262,7 +2263,7 @@ F800h-FFFFh  Select 16K ROM bank at 8000h-BFFFh (initially 1st bank)
 N/A          Fixed  16K ROM bank at C000h-FFFFh (always last bank)
 ```
 
-Mapper 69: Sunsoft5 FME-7 - PRG/8K, VROM/1K, NT ctrl, SRAM, IRQ
+## Mapper 69: Sunsoft5 FME-7 - PRG/8K, VROM/1K, NT ctrl, SRAM, IRQ
 
 This mapper is used by Batman, Hebereke, Pyokotan no Da Meiro, Barcode World,
 Gremlin 2, Honoo no Doukyuuji 1 and 2, and Gimmick.
@@ -2296,7 +2297,7 @@ N/A - Fixed  8K ROM at E000h-FFFFh (always last 8K bank)
 A000h  Data Register (indexed via Port 8000h)
 ```
 
-Mapper 71: Camerica - PRG/16K
+## Mapper 71: Camerica - PRG/16K
 
 This mapper is used on Camerica's unlicensed NES carts, including Firehawk and
 Linus Spacehead.
@@ -2311,15 +2312,15 @@ All carts using it have 8K of VRAM at PPU 0000h-1FFFh.
 
 Many ROMs from these games are incorrectly defined as mapper 2.
 
-Mapper 73: Konami VRC3 - PRG/16K, IRQ
+## Mapper 73: Konami VRC3 - PRG/16K, IRQ
 
 Mapper 21-26,73,75,85: Konami VRC Mappers
 
-Mapper 75: Jaleco SS8805/Konami VRC1 - PRG/8K, VROM/4K, NT
+## Mapper 75: Jaleco SS8805/Konami VRC1 - PRG/8K, VROM/4K, NT
 
 Mapper 21-26,73,75,85: Konami VRC Mappers
 
-Mapper 77: Irem - PRG/32K, VROM/2K, VRAM 6K+2K
+## Mapper 77: Irem - PRG/32K, VROM/2K, VRAM 6K+2K
 
 Used by Napoleon Senki.
 
@@ -2334,7 +2335,7 @@ Bit4-7  Select 2K VROM bank at PPU 0000h-07FFh
 
 Bus-conflicts.
 
-Mapper 79: AVE Nina-3 - VROM/8K
+## Mapper 79: AVE Nina-3 - VROM/8K
 
 [See also]
 
@@ -2351,7 +2352,7 @@ Port decoded as A14=A8=HIGH, A15=A13=LOW, ie. with mirrors at 4100h-41FFh,
 4300h-43FFh ... 5F00h-5FFFh. Contains 74LS175, 74LS138, and "Nina"-lockout
 chip.
 
-Mapper 81: AVE Nina-6
+## Mapper 81: AVE Nina-6
 
 Made by American Video Entertainment (AVE), used by Deathbots, Mermaids of
 Atlantis, etc.
@@ -2369,7 +2370,7 @@ are using it. Maybe meant to be Taito's Arkanoid 2, ie. this mapper:
 
 Mapper 70: Bandai - PRG/16K, VROM/8K, NT
 
-Mapper 83: Cony
+## Mapper 83: Cony
 
 There are different Cony variants for cartridges of different size:
 
@@ -2449,7 +2450,7 @@ B1FFh  Probably same as B000h
 430Xh  Unknown, program reads from this address
 ```
 
-Mapper 85: Konami VRC7A/B - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND
+## Mapper 85: Konami VRC7A/B - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND
 
 **VRC7 General Memory and IRQ Registers**
 
@@ -2599,7 +2600,7 @@ E - 21 62 21 00 84 85 34 15
 F - 21 62 0E 00 A1 A0 34 15
 ```
 
-Mapper 87: Jaleco/Konami 16K VROM - VROM/8K
+## Mapper 87: Jaleco/Konami 16K VROM - VROM/8K
 
 Used only by Hyper Olympic, Goonies, Choplifter, Argus, Ninja Jajamaru Kun,
 City Connection.
@@ -2608,7 +2609,7 @@ City Connection.
 6000h  Select 8K VROM bank at PPU 0000h-1FFFh (Bit 1 used only)
 ```
 
-Mapper 89: Sunsoft Early - PRG/16K, VROM/8K
+## Mapper 89: Sunsoft Early - PRG/16K, VROM/8K
 
 Used by only by Mito Koumon.
 
@@ -2622,7 +2623,7 @@ Bit3-0 Select 8K VROM bank at PPU 0000h-1FFFh
 
 The program seems to attempt (unsuccesfully) to resolve bus-conflicts.
 
-Mapper 91: HK-SF3 - PRG/8K, VROM/2K, IRQ
+## Mapper 91: HK-SF3 - PRG/8K, VROM/2K, IRQ
 
 This mapper is used on the pirate cart with a title screen reading "Street
 Fighter 3". It may or may not have been used in other bootleg games.
@@ -2643,7 +2644,7 @@ When enabled, IRQs are requested every 8 scanlines, except during VBlank.
 
 Vertical mirroring is always active.
 
-Mapper 93: 74161/32 - PRG/16K
+## Mapper 93: 74161/32 - PRG/16K
 
 Used only by Fantasy Zone.
 
@@ -2657,7 +2658,7 @@ Bit7    Always zero
 
 Bus-conflicts. Uses VRAM.
 
-Mapper 95: Namcot MMC3-Style
+## Mapper 95: Namcot MMC3-Style
 
 Looks like MMC3, but doesn't seem to have IRQs and various other functions.
 
@@ -2678,7 +2679,7 @@ N/A - Fixed 16K ROM at C000h-FFFFh (always last bank)
 8001h  Data Register (Indexed via Port 8000h)
 ```
 
-Mapper 97: Irem - PRG HI
+## Mapper 97: Irem - PRG HI
 
 Used by Kaiketsu Yanchamaru.
 
@@ -2693,7 +2694,7 @@ N/A     Fixed  16K ROM bank at 8000h-BFFFh (always LAST 16K bank)
 
 Bus-conflicts.
 
-Mapper 100: Whatever
+## Mapper 100: Whatever
 
 No info. Don't have any such ROM-images.
 
@@ -2704,7 +2705,7 @@ MMC3 hardware. Or it is just meant to be corrupted .NES files with garbage in
 reserved header entries at [07h..0Fh], thus changing mapper number 04h (MMC3)
 to 64h (100 decimal).
 
-Mapper 112: Asder - PRG/8K, VROM/2K/1K
+## Mapper 112: Asder - PRG/8K, VROM/2K/1K
 
 Used by Huang Di, and San Guo Zhi - Qun Xiong Zheng Ba.
 
@@ -2724,7 +2725,7 @@ C000h  Unknown, always 00h
 E000h  Unknown, always 00h
 ```
 
-Mapper 114: Super Games
+## Mapper 114: Super Games
 
 Used by Lion King, Super Donkey Kong, and Pocohontos. Mask addresses by E001h.
 
@@ -2758,13 +2759,13 @@ Port 8001h, Bit0 seems to be used as IRQ disable in Lion King. All games seem
 to use Vertical Mirroring, but Pocohontos seems to toggle Name Tables via Port
 8000h and 8001h during initialization.
 
-Mapper 116: Whatever
+## Mapper 116: Whatever
 
 No info. Don't have a ROM-image.
 
 Reportedly "PC-Reserved" used by "AV beautiy fighting(not playable yet)".
 
-Mapper 118: MMC3 TLSROM - PRG/8K, VROM/2K/1K, Banked-NT, SRAM, IRQ
+## Mapper 118: MMC3 TLSROM - PRG/8K, VROM/2K/1K, Banked-NT, SRAM, IRQ
 
 Used by Goal 2, Pro Sport Hockey, Armadillo, and Ys III.
 
@@ -2780,7 +2781,7 @@ Otherwise same as MMC3:
 
 Mapper 4: MMC3 - PRG/8K, VROM/2K/1K, NT, SRAM, IRQ
 
-Mapper 122: Whatever
+## Mapper 122: Whatever
 
 No info. Don't have a ROM-image.
 
@@ -2790,7 +2791,7 @@ Maybe "Madoola No Tsubasa" is same as "Wing of Madoola" (?)
 
 Mapper 184: Sunsoft - VROM/4K
 
-Mapper 151: VS Unisystem VRC1 or MMC3 Daughterboards
+## Mapper 151: VS Unisystem VRC1 or MMC3 Daughterboards
 
 This is a nonsense mapper number for VS Unisystem games with daughterboards.
 
@@ -2803,13 +2804,13 @@ Mapper 4: MMC3 - PRG/8K, VROM/2K/1K, NT, SRAM, IRQ
 
 Mapper 75: Jaleco SS8805/Konami VRC1 - PRG/8K, VROM/4K, NT
 
-Mapper 160: Same as Mapper 90
+## Mapper 160: Same as Mapper 90
 
 Seems to be duplicate/nonsense, same as Mapper 90, used by Aladdin.
 
 Mapper 90: Pirate MMC5-style
 
-Mapper 168: RacerMate PRG/16K, VRAM/4K, IRQ
+## Mapper 168: RacerMate PRG/16K, VRAM/4K, IRQ
 
 Used only by RacerMate Challenge II.
 
@@ -2890,11 +2891,11 @@ The cartridge does reportedly use horizontal mirroring (but, that info seems to
 come from same person who dumped RAM as ROM, and who talked about Port 8000h,
 so chances are around 80% that this info is wrong, too).
 
-Mapper 182: Same as Mapper 114
+## Mapper 182: Same as Mapper 114
 
 Mapper 114: Super Games
 
-Mapper 185: VROM-disable
+## Mapper 185: VROM-disable
 
 Used for copy-protected "NROM" games with (max) 32K PRG-ROM and 8K VROM.
 
@@ -2928,7 +2929,7 @@ F0h  0Fh  Bird Week
 Above games are working when mapping an empty VROM bank (FFh-filled) either
 when (X)=13h, or when (X AND 0Fh)=0.
 
-Mapper 189: MMC3 Variant
+## Mapper 189: MMC3 Variant
 
 Used by Master Figher 2, and Street Fighter 2. There are three Master Fighter 2
 versions, the 1st works as described below, the 2nd works but has distorted
@@ -2944,7 +2945,7 @@ The rest of the mapper is same as MMC3 (for the selected block of memory),
 
 Mapper 4: MMC3 - PRG/8K, VROM/2K/1K, NT, SRAM, IRQ
 
-Mapper 222: Dragon Ninja
+## Mapper 222: Dragon Ninja
 
 Used by a pirate copy of Dragon Ninja.
 
@@ -2966,7 +2967,7 @@ F001h        IRQ Counter/Stop/Set/Ack
 F002h        IRQ Counter/Start (incrementing approx every 120 (?) cycles)
 ```
 
-Mapper 226: X-in-1
+## Mapper 226: X-in-1
 
 Used by Super 42-in-1 (1024K), and 76-in-1 (2048K).
 
@@ -3009,7 +3010,7 @@ Register 1, Bit 1 - controls whether the CHR-RAM is write-protected:
 
 When the Reset button is pressed, both registers are reset to all zero bits.
 
-Mapper 228: X-in-1 Homebrewn
+## Mapper 228: X-in-1 Homebrewn
 
 Used in two carts with incredible crude homebrewn games: Action 52 (multicart
 52-in-1) and Cheetah Men 2 (single game cart).
@@ -3034,7 +3035,7 @@ bank-selection bits), most games look better at Vertical Mirroring (eg.
 cheetahmen, silversword), though some look better at Horizontal Mirroring (eg.
 criticalbp).
 
-Mapper 230: X-in-1 plus Contra
+## Mapper 230: X-in-1 plus Contra
 
 Used in a 640K ROM-image. The 1st 128K contain a single game (Contra), the
 remaining 512K contain a 22-in-1 multicart. NB. the multicart menu also tries
@@ -3045,7 +3046,7 @@ identical with Mapper 226 (banks 0..31 located AFTER the 1st 128K):
 
 Mapper 226: X-in-1
 
-Mapper 232: 4-in-1 Quattro Camerica
+## Mapper 232: 4-in-1 Quattro Camerica
 
 Used by Camerica 4-in-1 games with 256K ROM and 8K VRAM - Quattro Adventure,
 Quattro Arcade, and Quattro Sports.
@@ -3059,7 +3060,7 @@ FFF0h,FFF1h  Unknown - Write any value at proper timing (maybe lockout)
 
 In some (not all) ROM-images, 2nd/3rd game seem to be mis-exchanged.
 
-Mapper 234: Maxi-15
+## Mapper 234: Maxi-15
 
 Used by the AVE Maxi 15 Game Cartridge.
 
@@ -3100,7 +3101,7 @@ Memory-mapping hardware consists of eleven chips: 74LS273, 2x74LS322,
 2x74LS175, 2x74LS138, 74LS30, 74HC08, 74HC04 and a 4053. There are several
 discrete components, mostly related to the CIC-defeating function.
 
-Mapper 241: X-in-1 Education
+## Mapper 241: X-in-1 Education
 
 Used by Education Games 18-in-1, and Study and Game 32-in-1.
 
@@ -3115,7 +3116,7 @@ keyboard, but with different keyboard matrix.
 
 Controllers - Typewriter Keyboards
 
-Mapper 243: Sachen Poker - PRG/32K, VROM/8K
+## Mapper 243: Sachen Poker - PRG/32K, VROM/8K
 
 Used by Mei Nu Quan (Honey Peach), and Poker III 5-in-1.
 
@@ -3139,7 +3140,7 @@ The separate register indexes are:
 
 Formula for VROM Registers 2,4,6: Bank=(R2*8)+(R4 AND 1)+(R6 AND 3)*2
 
-Mapper 246: C&E - PRG/8K, VROM/2K, SRAM
+## Mapper 246: C&E - PRG/8K, VROM/2K, SRAM
 
 Used by Fong Shen Bang - Zhu Lu Zhi Zhan.
 

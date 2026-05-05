@@ -3,32 +3,32 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Audioprocessingunitapu
 
-Audio Processing Unit (APU) 
-APU Channel 1-4 Register 0 (Volume/Decay)
+Audio Processing Unit (APU)
+[APU Channel 1-4 Register 0 (Volume/Decay)](#apuchannel14register0volumedecay)
 
-APU Channel 1-4 Register 1 (Sweep)
+[APU Channel 1-4 Register 1 (Sweep)](#apuchannel14register1sweep)
 
-APU Channel 1-4 Register 2 (Frequency)
+[APU Channel 1-4 Register 2 (Frequency)](#apuchannel14register2frequency)
 
-APU Channel 1-4 Register 3 (Length)
+[APU Channel 1-4 Register 3 (Length)](#apuchannel14register3length)
 
-APU Channel 5 - DMC Sound
+[APU Channel 5 - DMC Sound](#apuchannel5dmcsound)
 
-APU Control and Status Registers
+[APU Control and Status Registers](#apucontrolandstatusregisters)
 
-APU 4-bit DAC
+[APU 4-bit DAC](#apu4bitdac)
 
-APU Various
+[APU Various](#apuvarious)
 
-APU DMC-DMA Glitch
+[APU DMC-DMA Glitch](#apudmcdmaglitch)
 
-APU External Sound Channels
+[APU External Sound Channels](#apuexternalsoundchannels)
 
-Controllers - Microphones
+[Controllers - Microphones](./controllers.md#controllersmicrophones)
 
 Based on "2A03 technical reference by Brad Taylor" (1st release, April 2004).
 
-APU Channel 1-4 Register 1 (Sweep)
+## APU Channel 1-4 Register 1 (Sweep)
 
 **4001h - APU Sweep Channel 1 (Rectangle)**
 
@@ -75,7 +75,7 @@ or if sweeping is enabled/disabled (via Bit7).
 0-7     Unused (No Sweep support for these channels)
 ```
 
-APU Channel 1-4 Register 3 (Length)
+## APU Channel 1-4 Register 3 (Length)
 
 **4003h - APU Length Channel 1 (Rectangle)**
 
@@ -110,7 +110,7 @@ the counter and sound output are stopped when reaching a value of zero. The
 counter can be paused (and restarted at current location) by Length Counter
 Clock Disabled bit in Register 0.
 
-APU Control and Status Registers
+## APU Control and Status Registers
 
 **4015h - DMC/IRQ/length counter status/channel enable register**
 
@@ -220,7 +220,7 @@ Note: 4015h is the only R/W register in the 4000h-4017h area, all other
 registers in this area are write-only, and do not respond to read cycles
 (except for the external read-able 4016h/4017h registers).
 
-APU Various
+## APU Various
 
 After 2A03 reset, the sound channels are unavailable for playback during the
 
@@ -244,26 +244,26 @@ front loading NES: "G". Other differences between 2A03 revisions are
 
 unknown. Is that Quirk True and Confirmed ?
 
-APU External Sound Channels
+## APU External Sound Channels
 
 The Famicom 60-pin cartridge slot includes a SND_IN pin, allowing external
 sound controllers (as included in some Cartridge Mappers, and in Famicom Disk
 System) to produce additional sound channels which are merged with the normal
 APU channels:
 
-Mapper 5: MMC5 - BANKING, IRQ, SOUND, VIDEO, MULTIPLY, etc.
+[Mapper 5: MMC5 - BANKING, IRQ, SOUND, VIDEO, MULTIPLY, etc.](./cartridgesandmappers.md#mapper5mmc5bankingirqsoundvideomultiplyetc)
 
-Mapper 19: Namcot 106 - PRG/8K, VROM/1K/VRAM, IRQ, SOUND
+[Mapper 19: Namcot 106 - PRG/8K, VROM/1K/VRAM, IRQ, SOUND](./cartridgesandmappers.md#mapper19namcot106prg8kvrom1kvramirqsound)
 
-Mapper 20: Disk System - PRG RAM, BIOS, DISK, IRQ, SOUND
+[Mapper 20: Disk System - PRG RAM, BIOS, DISK, IRQ, SOUND](./cartridgesandmappers.md#mapper20disksystemprgrambiosdiskirqsound)
 
-Mapper 24: Konami VRC6A - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND
+[Mapper 24: Konami VRC6A - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND](./cartridgesandmappers.md#mapper24konamivrc6aprg16k8kvrom1kntirqsound)
 
-Mapper 26: Konami VRC6B - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND
+[Mapper 26: Konami VRC6B - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND](./cartridgesandmappers.md#mapper26konamivrc6bprg16k8kvrom1kntirqsound)
 
-Mapper 85: Konami VRC7A/B - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND
+[Mapper 85: Konami VRC7A/B - PRG/16K/8K, VROM/1K, NT, IRQ, SOUND](./cartridgesandmappers.md#mapper85konamivrc7abprg16k8kvrom1kntirqsound)
 
-Mapper 188: UNROM-reversed
+[Mapper 188: UNROM-reversed](./cartridgesandmappers.md#mapper188unromreversed)
 
 However, the NES 72-pin cartridge slot DOES NOT include a SND_IN pin, even
 though it does have more (more or less unused) pins than Famicom.
@@ -272,11 +272,11 @@ And, there are a few devices with external speakers (not routed through NES
 SND_IN) - a "beep" function Power Glove, and fully featured synthesizer in the
 Miracle:
 
-Controllers - Piano Keyboards
+[Controllers - Piano Keyboards](./controllers.md#controllerspianokeyboards)
 
-Controllers - Power Glove
+[Controllers - Power Glove](./controllers.md#controllerspowerglove)
 
 And, the FamicomBox contains a beep function (when money is inserted); the beep
 sound is merged with the APU sound, and then passed to TV-Set.
 
-FamicomBox
+[FamicomBox](./famicombox.md)

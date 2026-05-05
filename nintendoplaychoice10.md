@@ -3,29 +3,29 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Nintendoplaychoice10
 
-Nintendo Playchoice 10 
+Nintendo Playchoice 10
 The Nintendo Playchoice 10 (PC10) arcade cabinets can contain up 10 NES games
 (on special cartridges). Aside from the NES-compatible hardware, the thing
 contains a Z80 CPU and a custom video circuit for handling game selection,
 coin/credits, game title/instructions display and bookkeeping.
 
-PC10 Memory Map and I/O Ports
+[PC10 Memory Map and I/O Ports](#pc10memorymapandioports)
 
-PC10 Video Circuit
+[PC10 Video Circuit](#pc10videocircuit)
 
-PC10 Title/Instructions (INST ROM)
+[PC10 Title/Instructions (INST ROM)](#pc10titleinstructionsinstrom)
 
-PC10 NES-Side
+[PC10 NES-Side](#pc10nesside)
 
-PC10 Games and Cartridge PCBs
+[PC10 Games and Cartridge PCBs](#pc10gamesandcartridgepcbs)
 
-PC10 Cabinet and BIOS Versions
+[PC10 Cabinet and BIOS Versions](#pc10cabinetandbiosversions)
 
-PC10 Pin-Outs
+[PC10 Pin-Outs](#pc10pinouts)
 
-Z80 CPU Specifications
+[Z80 CPU Specifications](#z80cpuspecifications)
 
-PC10 Video Circuit
+## PC10 Video Circuit
 
 **PC10 VRAM (32x28 character "BG Map")**
 
@@ -180,7 +180,7 @@ drawing them as shown above (without upper/lower horizontal line, as specified
 by Toshiba and Philips) (whilst Texas Instruments specifies them with extra
 lines). The "." dot (eighth LED segment) is always off in the Playchoice.
 
-PC10 NES-Side
+## PC10 NES-Side
 
 The PC10 cartridges are usually containing PRG-ROM and CHR-ROM on EPROMs
 (though, despite of the EPROM-storage, they are usually byte-identical to
@@ -198,7 +198,7 @@ NES can produce ugly flickering on the PC10. The color emphasis bits are also
 working differently as on NES. The PC10 palette is same as the "standard" VS
 System palette, for details see:
 
-VS System PPUs and Palettes
+[VS System PPUs and Palettes](./vssystem.md#vssystemppusandpalettes)
 
 **NES NMI Disable**
 
@@ -254,7 +254,7 @@ NES-to-Z80 transfers one could enable/disable NES NMIs to transfer 1bit per
 frame. For Z80-to-NES transfers one could eventually issue specially timed CPU
 or PPU Reset pulses.
 
-PC10 Cabinet and BIOS Versions
+## PC10 Cabinet and BIOS Versions
 
 **Dual-Monitor Upright Cabinets**
 
@@ -321,37 +321,37 @@ supported (neither for original nor homebrew games). Unknown if this BIOS
 supports both Single and Dual Monitor versions. The BIOS doesn't support coin
 inputs (freeplay mode only)
 
-Z80 CPU Specifications
+## Z80 CPU Specifications
 
-Z80 Register Set
+[Z80 Register Set](#z80registerset)
 
-Z80 Flags
+[Z80 Flags](#z80flags)
 
-Z80 Instruction Format
+[Z80 Instruction Format](#z80instructionformat)
 
-Z80 Load Commands
+[Z80 Load Commands](#z80loadcommands)
 
-Z80 Arithmetic/Logical Commands
+[Z80 Arithmetic/Logical Commands](#z80arithmeticlogicalcommands)
 
-Z80 Rotate/Shift and Singlebit Operations
+[Z80 Rotate/Shift and Singlebit Operations](#z80rotateshiftandsinglebitoperations)
 
-Z80 Jumpcommands & Interrupts
+[Z80 Jumpcommands & Interrupts](#z80jumpcommandsinterrupts)
 
-Z80 I/O Commands
+[Z80 I/O Commands](#z80iocommands)
 
-Z80 Interrupts
+[Z80 Interrupts](#z80interrupts)
 
-Z80 Meaningless and Duplicated Opcodes
+[Z80 Meaningless and Duplicated Opcodes](#z80meaninglessandduplicatedopcodes)
 
-Z80 Garbage in Flag Register
+[Z80 Garbage in Flag Register](#z80garbageinflagregister)
 
-Z80 Compatibility
+[Z80 Compatibility](#z80compatibility)
 
-Z80 Pin-Outs
+[Z80 Pin-Outs](#z80pinouts)
 
-Z80 Local Usage
+[Z80 Local Usage](#z80localusage)
 
-Z80 Flags
+## Z80 Flags
 
 **Flag Summary**
 
@@ -425,7 +425,7 @@ However, the existence of these bits makes the AF register a full 16bit
 register, so that for example the code sequence PUSH DE, POP AF, PUSH AF, POP
 HL would set HL=DE with all 16bits intact.
 
-Z80 Load Commands
+## Z80 Load Commands
 
 **8bit Load Commands**
 
@@ -488,7 +488,7 @@ ldir           ED B0  bc*21-5 --0?0- ldi-repeat until BC=0
 lddr           ED B8  bc*21-5 --0?0- ldd-repeat until BC=0
 ```
 
-Z80 Rotate/Shift and Singlebit Operations
+## Z80 Rotate/Shift and Singlebit Operations
 
 **Rotate and Shift Commands**
 
@@ -538,7 +538,7 @@ ccf            3F           4 --h-0c h=cy, cy=cy xor 1
 scf            37           4 --0-01 cy=1
 ```
 
-Z80 I/O Commands
+## Z80 I/O Commands
 
 ```
 Instruction    Opcode  Cycles Flags  Notes
@@ -558,7 +558,7 @@ otir           ED B3   b*21-5 x1xxxx same than outi, repeat until b=0
 otdr           ED BB   b*21-5 x1xxxx same than outd, repeat until b=0
 ```
 
-Z80 Meaningless and Duplicated Opcodes
+## Z80 Meaningless and Duplicated Opcodes
 
 **Mirrored Instructions**
 
@@ -615,7 +615,7 @@ instructions that do not support IX, IY, IXL, IXH, IYL, IYH operands. In such
 cases, 4 clock cycles and 1 refresh cycle are counted for each ignored prefix
 byte.
 
-Z80 Compatibility
+## Z80 Compatibility
 
 The Z80 CPU is (almost) fully backwards compatible to older 8080 and 8085 CPUs.
 
@@ -664,7 +664,7 @@ is the supported clock frequency (Z80 = max 2.5MHz, Z80A = max 4MHz).
 These CPUs are apparently fully compatible to each other, including for
 undocumented flags and undocumented opcodes.
 
-Z80 Local Usage
+## Z80 Local Usage
 
 **Playchoice 10 (Z80)**
 

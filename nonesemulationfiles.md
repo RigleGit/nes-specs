@@ -3,7 +3,7 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Nonesemulationfiles
 
-No$nes Emulation Files 
+No$nes Emulation Files
 **SLOT Folder**
 
 Default location for Game ROM-Images is "SLOT" folder (in same directory as

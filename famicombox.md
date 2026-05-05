@@ -3,24 +3,24 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Famicombox
 
-FamicomBox 
+FamicomBox
 Nintendo FamicomBox (SSS-CDS) aka Sharp FamicomStation.
 
 Info from Kevin Horton.
 
-FamicomBox Memory and I/O Maps
+[FamicomBox Memory and I/O Maps](#famicomboxmemoryandiomaps)
 
-FamicomBox I/O Ports
+[FamicomBox I/O Ports](#famicomboxioports)
 
-FamicomBox Misc
+[FamicomBox Misc](#famicomboxmisc)
 
-FamicomBox Cartridges
+[FamicomBox Cartridges](#famicomboxcartridges)
 
-FamicomBox ROM Header (at FFE0h)
+[FamicomBox ROM Header (at FFE0h)](#famicomboxromheaderatffe0h)
 
-FamicomBox Pinouts
+[FamicomBox Pinouts](#famicomboxpinouts)
 
-FamicomBox I/O Ports
+## FamicomBox I/O Ports
 
 **5000h.W - Exception Trap Enable Bits (reset to 00h on power-up only)**
 
@@ -234,7 +234,7 @@ webpage).
 7    Expansion 50-pin Edge Connector, Pin 20
 ```
 
-Reading 4016h or 4017h resets the 4bit Watchdog timer (this must be done at
+[Reading 4016h or 4017h resets the 4bit Watchdog timer (this must be done at](#reading4016hor4017hresetsthe4bitwatchdogtimerthismustbedoneat)
 least every 17.5 seconds; ie. every fifteen 0.853Hz steps).
 
 **4017h.R - Watchdog Reload, and Joypad 2 and Zapper**
@@ -250,10 +250,11 @@ least every 17.5 seconds; ie. every fifteen 0.853Hz steps).
 7    Expansion 50-pin Edge Connector, Pin 18
 ```
 
-Reading 4016h or 4017h resets the 4bit Watchdog timer (this must be done at
+<a id="reading4016hor4017hresetsthe4bitwatchdogtimerthismustbedoneat"></a>
+## Reading 4016h or 4017h resets the 4bit Watchdog timer (this must be done at
 least every 17.5 seconds; ie. every fifteen 0.853Hz steps).
 
-FamicomBox Cartridges
+## FamicomBox Cartridges
 
 **Software Requirements**
 
@@ -272,7 +273,7 @@ below). The only exception are older games (that were produced before the
 FamicomBox was released; ie. before 1986/1987), for such games, the FamicomBox
 menu cartridge contains a database with about 150 known checksums & titles.
 
-FamicomBox ROM Header (at FFE0h)
+[FamicomBox ROM Header (at FFE0h)](#famicomboxromheaderatffe0h)
 
 **Hardware Restrictions**
 
@@ -282,13 +283,13 @@ is causing that restrictions) (in case of the SRAM area at 6000h-7FFFh: unknown
 if the games are allowed to use the internal SRAM on the FamicomBox mainboard;
 instead of battery-backed SRAM used in retail game cartridges).
 
-FamicomBox Pinouts
+## FamicomBox Pinouts
 
 **72-Pin Cartridge Slots (16 slots: for menu cart and 15 game carts)**
 
 Mostly same as 72-pin NES cartridges, see:
 
-Cartridge Pin-Outs
+[Cartridge Pin-Outs](./cartridgesandmappers.md#cartridgepinouts)
 
 Pin 16-19 are the 4bit SlotID; for use by the FamicomBox CIC chip (on NES
 carts, these pins are unused "expansion" pins).
@@ -429,7 +430,7 @@ test-adaptor (and the /IRQ pin strapped to a CATV pin?).
 
 Lockout chip with additional 4bit SlotID (unlike normal NES lockout chips).
 
-Cartridge Cicurity Chip (CIC) (Lockout Chip)
+[Cartridge Cicurity Chip (CIC) (Lockout Chip)](./cartridgesandmappers.md#cartridgecicuritychipciclockoutchip)
 
 **3199 - 16pin Coin Timer/Coin Chip (1 piece; on mainboard)**
 

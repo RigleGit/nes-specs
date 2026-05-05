@@ -3,7 +3,7 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Nonescontrols
 
-No$nes Controls 
+No$nes Controls
 **General Joypad Controls**
 
 Keyboard controls for up to four players can be defined in setup. Buttons of

@@ -3,7 +3,7 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Techdata
 
-Tech Data 
+Tech Data
 **Overall Specs**
 
 CPU 2A03 - customized 6502 CPU - audio - does not contain support for decimal
@@ -21,7 +21,7 @@ for external sound chips to be mixed in with the Famicom audio.
 
 **Original Famicom (Family Computer) (1983) (Japan)**
 
-60-pin cartridge slot, with external sound-input, without lockout chip.
+[60-pin cartridge slot, with external sound-input, without lockout chip.](#60pincartridgeslotwithexternalsoundinputwithoutlockoutchip)
 
 Two joypads directly attached to console, Joypad 1 with Start/Select buttons,
 Joypad 2 with microphone, but without Start/Select. 15pin Expansion port for

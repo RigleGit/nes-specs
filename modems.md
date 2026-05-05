@@ -3,7 +3,7 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Modems
 
-Modems 
+Modems
 **Japanese Famicom Modems**
 
 There are at least 4 different Famicom modems:
@@ -29,7 +29,7 @@ Specifically for use with the modems, there have been some numeric keypads, in
 form of extended joypads, and some in form of (non-wireless) TV-style remote
 controls:
 
-Controllers - Keypads
+[Controllers - Keypads](./controllers.md#controllerskeypads)
 
 Other than that, there isn't anything known about these modems. Unknown if and
 how far they are compatible with each other. There don't seem to be any dumps

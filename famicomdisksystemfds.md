@@ -3,31 +3,31 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Famicomdisksystemfds
 
-Famicom Disk System (FDS) 
+Famicom Disk System (FDS)
 Famicom Disk System (FDS) is a Famicom extension unit which was produced by
 Nintendo and only sold in Asian countries. It consists of a disk drive
 accepting 2.5" or 3" (?) floppies, 32K of RAM to load programs into, 8K of
 VRAM, and some other hardware described below.
 
-FDS Memory and I/O Maps
+[FDS Memory and I/O Maps](#fdsmemoryandiomaps)
 
-FDS I/O Ports - Timer
+[FDS I/O Ports - Timer](#fdsioportstimer)
 
-FDS I/O Ports - Disk
+[FDS I/O Ports - Disk](#fdsioportsdisk)
 
-FDS I/O Ports - Sound
+[FDS I/O Ports - Sound](#fdsioportssound)
 
-FDS BIOS Disk Format
+[FDS BIOS Disk Format](#fdsbiosdiskformat)
 
-FDS BIOS Disk Functions
+[FDS BIOS Disk Functions](#fdsbiosdiskfunctions)
 
-FDS BIOS Disk Errors
+[FDS BIOS Disk Errors](#fdsbiosdiskerrors)
 
-FDS BIOS Data Areas in WRAM
+[FDS BIOS Data Areas in WRAM](#fdsbiosdataareasinwram)
 
-FDS Disk Drive Operation
+[FDS Disk Drive Operation](#fdsdiskdriveoperation)
 
-FDS I/O Ports - Timer
+## FDS I/O Ports - Timer
 
 Interrupt Timer intended to produce mid-screen scanline interrupts.
 
@@ -51,9 +51,9 @@ reading that status register does (also?) acknowledge IRQs.
 
 The IRQ Vector is controlled by the BIOS via [0101h] and [DFFEh],
 
-FDS BIOS Data Areas in WRAM
+[FDS BIOS Data Areas in WRAM](#fdsbiosdataareasinwram)
 
-FDS I/O Ports - Sound
+## FDS I/O Ports - Sound
 
 **4040h..407Fh - Wave RAM - 64 x 6bit sample data (Read/Write)**
 
@@ -108,7 +108,8 @@ Bit6    Volume Envelope Direction (When enabled / at specified rate)
 0=Decrease Volume by 1 (only if Volume>00h)
 1=Increase Volume by 1 (only if Volume193 then temp -= 258;  // not a typo... for some reason the wraps
 if temp
-FDS BIOS Disk Functions
+
+## FDS BIOS Disk Functions
 
 **Disk Boot**
 
@@ -139,9 +140,9 @@ is the same, no matter how many/how large files are loaded. On the contrary,
 multiple calls to LoadFiles would be unneccessarily slow.
 
 ```
-RETaddr:        pointer to DiskID
+[RETaddr:        pointer to DiskID](#retaddrpointertodiskid)
 RETaddr+2:      pointer to LoadList
-A on return:    error code
+[A on return:    error code](#aonreturnerrorcode)
 Y on return:    count of files actually found
 ```
 
@@ -154,7 +155,8 @@ than the Disk Header's Boot ID value.
 
 ```
 RETaddr:        pointer to DiskInfo
-A on return:    error code
+<a id="aonreturnerrorcode"></a>
+## A on return:    error code
 ```
 
 The DiskInfo pointer should point to a free memory location, which will receive
@@ -186,10 +188,12 @@ In a second cycle, the written data is verified, if the verification fails
 (error 26h), then the file count is decremented, ie. the new file is deleted.
 
 ```
-RETaddr:        pointer to DiskID
+<a id="retaddrpointertodiskid"></a>
+## RETaddr:        pointer to DiskID
 RETaddr+2:      pointer to FileInfo
 A on call:      File Number  (00h=First) (FFh=Append after last file)
-A on return:    error code
+<a id="aonreturnerrorcode"></a>
+## A on return:    error code
 ```
 
 FileInfo occupies 17 bytes, the first 14 bytes contain File Header entries
@@ -201,10 +205,12 @@ not be same as Load Address and Load Area).
 **E2BBh - Adjust File count**
 
 ```
-RETaddr:        pointer to DiskID
+<a id="retaddrpointertodiskid"></a>
+## RETaddr:        pointer to DiskID
 A on call:      number to reduce current file count by
-A on return:    error code
-Special error:  #$31 if A is less than the disk's file count
+<a id="aonreturnerrorcode"></a>
+## A on return:    error code
+[Special error:  #$31 if A is less than the disk's file count](#specialerror31ifaislessthanthedisksfilecount)
 ```
 
 Reads in disk's file count, decrements it by A, then writes the new value back.
@@ -212,10 +218,13 @@ Reads in disk's file count, decrements it by A, then writes the new value back.
 **E2B7h - Check File count**
 
 ```
-RETaddr:        pointer to DiskID
-A on call:      number to set file count to
-A on return:    error code
-Special error:  #$31 if A is less than the disk's file count
+<a id="retaddrpointertodiskid"></a>
+## RETaddr:        pointer to DiskID
+[A on call:      number to set file count to](#aoncallnumbertosetfilecountto)
+<a id="aonreturnerrorcode"></a>
+## A on return:    error code
+<a id="specialerror31ifaislessthanthedisksfilecount"></a>
+## Special error:  #$31 if A is less than the disk's file count
 ```
 
 Reads in disk's file count, compares it to A, then sets the disk's file count
@@ -224,9 +233,12 @@ to A.
 **E305h - Set File count (alt. 1)**
 
 ```
-RETaddr:        pointer to DiskID
-A on call:      number to set file count to
-A on return:    error code
+<a id="retaddrpointertodiskid"></a>
+## RETaddr:        pointer to DiskID
+<a id="aoncallnumbertosetfilecountto"></a>
+## A on call:      number to set file count to
+<a id="aonreturnerrorcode"></a>
+## A on return:    error code
 ```
 
 Sets the disk's file count to A.
@@ -234,9 +246,11 @@ Sets the disk's file count to A.
 **E301h - Set File count (alt. 2)**
 
 ```
-RETaddr:        pointer to DiskID
+<a id="retaddrpointertodiskid"></a>
+## RETaddr:        pointer to DiskID
 A on call:      number to set file count to minus 1
-A on return:    error code
+<a id="aonreturnerrorcode"></a>
+## A on return:    error code
 ```
 
 Sets the disk's file count to A+1.
@@ -289,7 +303,7 @@ By using Non-ASCII BIOS Tile Numbers: A..Z=0Ah..23h SPC=24h .=26h ;=27h r=28h.
 
 See WRAM Target Addresses above for methods to bypass the Boot License.
 
-FDS BIOS Data Areas in WRAM
+## FDS BIOS Data Areas in WRAM
 
 The BIOS uses several places in memory, but only some of them are expected to
 be maintained by game code.

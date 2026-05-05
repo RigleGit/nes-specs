@@ -3,24 +3,24 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Hardwarepinouts
 
-Hardware Pin-Outs 
+Hardware Pin-Outs
 **Pin-Outs**
 
-Cartridge Pin-Outs
+[Cartridge Pin-Outs](./cartridgesandmappers.md#cartridgepinouts)
 
-Cartridge Shell Dimensions
+[Cartridge Shell Dimensions](./cartridgesandmappers.md#cartridgeshelldimensions)
 
-Controllers - Pin-Outs
+[Controllers - Pin-Outs](./controllers.md#controllerspinouts)
 
-Chipset Pin-Outs
+[Chipset Pin-Outs](#chipsetpinouts)
 
-NES Expansion Port
+[NES Expansion Port](#nesexpansionport)
 
 **Upgrading**
 
-Nocash SRAM Circuit
+[Nocash SRAM Circuit](#nocashsramcircuit)
 
-NES Expansion Port
+## NES Expansion Port
 
 **NES Expansion Port, 48-pins, (at bottom of console, rarely used)**
 

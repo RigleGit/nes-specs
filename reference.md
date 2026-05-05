@@ -3,41 +3,41 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Reference
 
-Contents 
+Contents
 **No$nes Emulator / Debugger**
 
-No$nes Controls
+[No$nes Controls](./nonescontrols.md)
 
-No$nes Emulation Files
+[No$nes Emulation Files](./nonesemulationfiles.md)
 
 **Everynes NES Hardware Specifications**
 
-Tech Data
+[Tech Data](./techdata.md)
 
-Memory Maps
+[Memory Maps](./memorymaps.md)
 
-I/O Map
+[I/O Map](./iomap.md)
 
-Picture Processing Unit (PPU)
+[Picture Processing Unit (PPU)](./pictureprocessingunitppu.md)
 
-Audio Processing Unit (APU)
+[Audio Processing Unit (APU)](./audioprocessingunitapu.md)
 
-Controllers
+[Controllers](./controllers.md)
 
-Cartridges and Mappers
+[Cartridges and Mappers](./cartridgesandmappers.md)
 
-Famicom Disk System (FDS)
+[Famicom Disk System (FDS)](./famicomdisksystemfds.md)
 
-VS System
+[VS System](./vssystem.md)
 
-Nintendo Playchoice 10
+[Nintendo Playchoice 10](./nintendoplaychoice10.md)
 
-FamicomBox
+[FamicomBox](./famicombox.md)
 
-Modems
+[Modems](./modems.md)
 
-Hardware Pin-Outs
+[Hardware Pin-Outs](./hardwarepinouts.md)
 
-CPU 65XX Microprocessor
+[CPU 65XX Microprocessor](./cpu65xxmicroprocessor.md)
 
-About Everynes
+[About Everynes](./abouteverynes.md)

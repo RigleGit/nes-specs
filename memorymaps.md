@@ -3,7 +3,7 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Memorymaps
 
-Memory Maps 
+Memory Maps
 Internal Memory: 2K WRAM, 2K VRAM, 256 Bytes SPR-RAM, and Palette/Registers
 
 **CPU Memory Map (16bit buswidth, 0-FFFFh)**

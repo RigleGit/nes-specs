@@ -3,7 +3,7 @@
 > Source: https://problemkaputt.de/everynes.htm
 > Section: Vssystem
 
-VS System 
+VS System
 Nintendo's VS Systems are arcade machines with same chipset as NES consoles.
 There are two versions:
 
@@ -16,17 +16,17 @@ The DualSystem essentially contains two NES consoles that can be linked
 together (or optionally can be used as two independend consoles, each one
 running a different game).
 
-VS System Controllers
+[VS System Controllers](#vssystemcontrollers)
 
-VS System Games
+[VS System Games](#vssystemgames)
 
-VS System PPUs and Palettes
+[VS System PPUs and Palettes](#vssystemppusandpalettes)
 
-VS System Protections
+[VS System Protections](#vssystemprotections)
 
-Mapper 99: VS Unisystem Port 4016h - VROM/8K, (PRG/8K)
+[Mapper 99: VS Unisystem Port 4016h - VROM/8K, (PRG/8K)](./cartridgesandmappers.md#mapper99vsunisystemport4016hvrom8kprg8k)
 
-VS System Games
+## VS System Games
 
 **VS System Games**
 
@@ -133,7 +133,8 @@ For reference, below are some more RGB PPUs (although not used in VS System):
 
 ```
 RP2C03B (standard palette) ;
-VS System Protections
+
+## VS System Protections
 
 **Unprotected Games**
 
